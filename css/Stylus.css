@@ -1,0 +1,279 @@
+/* Base styles for mobile devices (default) */
+
+  
+ .body {padding: 10px;margin: 0px;}
+      input[type=number] {
+        /*for absolutely positioning spinners*/
+        position: static; 
+        padding: 5px;
+        padding-right: 25px;
+      }
+
+      input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button {
+        opacity: 1;
+      }
+
+      input[type=number]::-webkit-outer-spin-button, 
+      input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: inner-spin-button !important;
+        
+        width: 25px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+      }
+
+
+
+
+  .nvarprinblac {
+    font-size: large;
+    padding: 10px;
+    margin-right: 5px;
+  }
+
+  .nvarprin nav ul li {
+    font-size:small;
+    padding: 3px;
+    margin-right: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  .tabprincipal {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .imagelogo {
+    width: 100%;
+    height: 100%;
+    min-width: 10%;
+    min-height: 10%;
+    
+  }
+
+  .colorcelda {
+    padding: 10%;
+    margin: 10%;
+    background-size: 60%;
+  }
+
+  
+
+ 
+
+  .boton {
+    padding: 8px 15px;
+    font-size: large;
+  }
+
+  .btn-add-to-cart {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .inputnumber, input[type="number"] {
+    width: 100px;
+    padding: 6px;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+.tabprincipal{
+  /*background-image: url(../images/bg.jpg);*/
+    width:90%;
+    max-width:800px;
+  
+  
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  margin-top:20px;
+  padding:20px;
+  transition:0.5s;
+
+}
+
+
+.colorcelda{  
+  background-color:#cdd0f3;
+  border-radius:5px;
+  box-shadow:0 0 5px rgba(0,0,0,0.3);
+  padding:15%;
+  margin: 15%;
+  transition:0.5s;  
+  background-image: url(../images/TarjetaMorada.png);
+      /* Opcional: ajustar tamaño, repetición, etc. */
+      background-size:80%;
+      background-repeat:no-repeat;
+      background-position:center;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+.caruceltamadiv{  
+ width: 50%;
+  height: 50%;
+  display:table-cell;
+  border-radius:5px;
+  box-shadow:0 0 5px rgba(0,0,0,0.3);
+  padding:2%;
+  margin: 2%;
+  transition:0.5s; 
+  justify-content: center;
+    align-items: center ;  
+
+      /* Opcional: ajustar tamaÃ±o, repeticiÃ³n, etc. */
+      background-size:10%;
+      background-repeat:no-repeat;
+      background-position:center;
+
+  
+  
+}
+
+.Titulo{
+  text-align:center;
+  font-size:large;
+  font-weight:bold;
+  font-family: Arial, sans-serif;
+  text-decoration:underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color:#0a0a0a;
+  margin-top:10px;
+  margin-bottom:10px; 
+
+  
+}
+
+.Btcomprar{
+  text-align:center;
+  font-size:large;
+  font-weight:bold;
+  font-family: Arial, sans-serif;
+  text-decoration:underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color:#0a0a0a;
+  margin-top:10px;
+  margin-bottom:10px; 
+
+  
+}
+
+.btnlist {
+    list-style-type: none;
+    display: inline-flex;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    margin: 0; padding: 0;
+    font-size: large;
+}
+.boton {
+    display: block;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 16px 30px;
+    text-decoration: none;
+    background: linear-gradient(#f2f2f2, #d8d8d8);
+    border-left: 1px solid #f6f6f6;
+    border-right: 1px solid #e4e4e4;
+    color: #88787a;
+    text-align: center;
+    margin: 0;
+    text-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+.boton:hover {
+    box-shadow: inset 1px 4px 6px 2px rgba(0,0,0,.1);
+    background: #ddd;
+    
+}
+.btnlist li:first-child .boton {
+    border-radius: 5px 0 0 5px;
+    font-size: large;
+}
+.btnlist li:last-child .boton {
+    border-radius: 0 5px 5px 0;
+    font-size: large;
+}
+
+
+.btn-add-to-cart {
+  background-color: #4CAF50; /* Color de fondo verde */
+  border: none;
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Relleno interno */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Animación de cambio de color */
+}
+
+.btn-add-to-cart:hover {
+  background-color: #45a049; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+.divconta{
+  position:sticky;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.cart-trigger {
+  width: 40%;
+  /*min-width: 5%;*/
+  height: 100%;
+  
+  position:sticky; /* Permite posicionar elementos dentro, como el contador */
+  background-color: #4CAF50; /* Color de fondo */
+  color: white; /* Color del texto y el icono */
+  padding: 10px 15px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano al pasar sobre el botón */
+  font-size: 90%; /* Tamaño de fuente */
+}
+
+.cart-trigger:hover {
+  background-color: #45a049; /* Color de fondo al pasar el ratón */
+}
+
+.inputonumber {
+  
+  padding: 2px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  visibility: visible;
+  position: sticky;
+}
+
+
+
+
+
+
+
+

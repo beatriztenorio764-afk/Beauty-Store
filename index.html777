@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo</title>
+</head>
+
+<body>
+  <button onclick="miFuncion()">Sumar-Campos</button>
+  <button onclick="miFunciondos()">CopiarCampo</button>
+  <button id="btwha" >send WhatsApp</button>
+
+<button id="Button-Large-Light"  width="156" height="48" viewBox="0 0 156 48">
+  <g id="base" fill="none" stroke="#f8f9fa" stroke-width="1">
+    <rect width="156" height="48" rx="4" stroke="none"/>
+    <rect x="0.5" y="0.5" width="155" height="47" rx="3.5" fill="none"/>
+  </g>
+  <text id="Large_Button" data-name="Large Button" transform="translate(20 31)" fill="#f8f9fa" font-size="20" font-family="ArialMT, Arial"><tspan x="0" y="0">Large Button</tspan></text>
+</button>
+
+
+
+ <div>
+              <input type="hidden" name="idga" value="" />
+              <input
+                style="width: 50px; height: 30px;position: relative;"
+                type="number"
+                name="cantmeses"
+                id="cant"
+                value="1"
+                class="inputnumber"
+                min="1"
+                placeholder="1"
+              />
+            
+            
+            </div>
+
+
+            
+
+<input type="text" id="texto1" value="0">
+  <input type="text" id="texto2"  value="0">
+  <input type="text" id="texto3"  value="0">
+  <input type="text" id="texto4"  value="0">
+  
+  <script src="Testw.js"></script>
+
+  
+</body>
+</html>

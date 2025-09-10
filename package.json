@@ -1,0 +1,20 @@
+{
+  "name": "javascript-examples",
+  "version": "1.0.0",
+  "description": "",
+  "license": "Apache-2.0",
+  "author": "The Selenium project",
+  "type": "commonjs",
+  "main": "booking.spec.js",
+  "scripts": {
+    "test": "npx mocha test/**/*.spec.js --timeout 120000 --parallel --retries 2"
+  },
+  "dependencies": {
+    "assert": "2.1.0",
+    "selenium-webdriver": "^4.35.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "mocha": "11.7.1"
+  }
+}
