@@ -19,14 +19,14 @@
       <table border="0" class="tabprincipal">
         <tbody>
           <tr>
-            <td  colspan="2">
+            <td colspan="2">
               <div>
                 <ul class="btnlist">
                   <li><a class="boton" href="index.html">principal</a></li>
                   <li><a class="boton" href="damas.html">Dama</a></li>
-                  <li><a class="boton"  href="damas.html">Caballero</a></li>
-                  <li><a class="boton"  href="damas.html">Joyeria</a></li>
-                  <li><a class="boton"  href="damas.html">Contactanos</a></li>
+                  <li><a class="boton" href="damas.html">Caballero</a></li>
+                  <li><a class="boton" href="damas.html">Joyeria</a></li>
+                  <li><a class="boton" href="damas.html">Contactanos</a></li>
                 </ul>
               </div>
             </td>
@@ -37,30 +37,47 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
-            <td class="colorcelda" colspan="2">&nbsp;</td>
-            <td></td>
-          </tr>
 
           <tr>
-            <td>&nbsp;</td>
-            <td></td>
-          </tr>
+            <td colspan="2">
+              <form>
+                <div>
+                  <div class="card-body">
+                    <table class="table table-hover">
+                      <thead>
+                        <tr class="Titulo">
+                          <td>Item</td>
+                          <td>Nombre</td>
+                          <td>Descripción</td>
+                          <td>Precio x Unidad</td>
+                          <td>Cantidad</td>
+                          <td>Subtotal</td>
+                          <td>Acción</td>
+                        </tr>
+                      </thead>
+                      <tbody class="submenu" id="idcarritoComlist"></tbody>
 
-          <tr>
-            <td class="Titulo" colspan="2">
-              <h1>La Mejor Calidad al Mejor Precio</h1>
+
+                           
+                           <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td class="Titulo" >Total</td>
+                          <td class="Titulo" id="idtotal"></td>
+                          <td>&nbsp;</td>
+                    </table>
+                  </div>
+                </div>
+              </form>
             </td>
             <td></td>
           </tr>
+
           <tr></tr>
           <tr>
             <td>&nbsp;</td>
-            <td>
-           
-              
-              
-            </td>
+            <td></td>
           </tr>
           <tr>
             <td>&nbsp;</td>
@@ -83,7 +100,9 @@
     </div>
     <h1></h1>
     <p></p>
+
     <script src="js/creahtml.js"></script>
+    <script src="js/CarritoCompras.js"></script>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>

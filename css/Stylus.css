@@ -273,7 +273,52 @@
 
 
 
+.btn-carrito {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Texto blanco */
+  padding: 10px 15px; /* Relleno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* El cursor cambia a una mano */
+  font-size: 16px; /* Tamaño de la fuente */
+  display: inline-flex; /* Para alinear icono y texto */
+  align-items: center; /* Centra verticalmente icono y texto */
+  gap: 10px; /* Espacio entre icono y texto */
+  
+  
+}
+
+.btn-carrito .fa-shopping-cart {
+  font-size: 18px; /* Tamaño un poco más grande para el icono */
+}
 
 
+.trformacar{
+  text-align:center;
+  font-size:large;
+  font-weight:bold;
+  font-family: Arial, sans-serif;
+  text-decoration:underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color:#0a0a0a;
+  margin-top:10px;
+  margin-bottom:10px; 
 
+  
+}
 
+.submenu  {
+    font-family: Serpentine;
+    text-align: center;
+    font-size: 120%;
+ 
+    
+}
+
+.lbsubtitulos{
+    font-weight: bold;
+    font-size: 140%;
+    font-family: Serpentine;
+    text-align: center;
+
+}

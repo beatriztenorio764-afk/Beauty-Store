@@ -1,16 +1,17 @@
 
+
 let contarprodu=document.getElementById("cantmeses");
 let producto;
-
 let shotsarray  = new Array();
-
 let camisetasarray =new Array();
        
 producto={
+   nombre:"Short",
    imagen:"images/Fotos/IMG_20240319_080542.jpg",
    Descripcion:"Short Primavera",
    Codigo:"CodSh01",
-   Precio:"c$100"
+   Cantidad:3,
+   Precio:100
 
 }
 shotsarray[0] = producto //Arreglo imagenes
@@ -18,20 +19,24 @@ shotsarray[0] = producto //Arreglo imagenes
 
 
 producto={
+   nombre:"Short",
    imagen:"images/Fotos/IMG_20240319_080802.jpg",
    Descripcion:"Short Verano",
    Codigo:"CodSh02",
-   Precio:"c$150"
+   Cantidad:4,
+   Precio:150
 }
 shotsarray[1] = producto;
 
 
 
 producto={
+   nombre:"Short",
    imagen:"images/Fotos/IMG_20240319_080832.jpg",
    Descripcion:"Short Casual",
    Codigo:"CodSh03",
-   Precio:"c$200"
+   Cantidad:1,
+   Precio:200
 
 }
 shotsarray[2] = producto;
@@ -39,20 +44,24 @@ shotsarray[2] = producto;
 
 
 producto={
+  nombre:"Short",
    imagen:"images/Fotos/IMG_20240504_201032.jpg",
    Descripcion:"Short Casual",
    Codigo:"CodSh04",
-   Precio:"c$250"
+   Cantidad:6,
+   Precio:250
 }
 shotsarray[3] =producto ;
 
 
 
 producto={
+   nombre:"Short",
    imagen:"images/Fotos/IMG_20240724_144059.jpg",
    Descripcion:"Short Alicrado",
    Codigo:"CodSh05",
-   Precio:"c$300"
+   Cantidad:2,
+   Precio:300
 
 }
 shotsarray[4] = producto;
@@ -136,12 +145,11 @@ function Numprod(newDiv,idbtcompra,i){ //Cantidad de producto a comprar
   newInputcant.setAttribute("onclick", "valorbtnumeroprod('" + idbtcompra + "','" + i + "');");
 
   newDiv.appendChild(newDivnumprod); 
-  
   newDivnumprod.appendChild(newInputcant); 
 
-
-
 }
+
+
 function Btprevio(contenedor, classtarget, principalcontenedor) {
   //Boton previo flecha <
 
@@ -166,6 +174,7 @@ function Btprevio(contenedor, classtarget, principalcontenedor) {
     newbtprev.appendChild(newspanprevdos);
   }
 }
+
 
 
 function Btnext(contenedor, classtarget, principalcontenedor) {
