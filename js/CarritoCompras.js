@@ -1,5 +1,11 @@
+
+
 let Carritoitemspri = document.getElementById("idcarritoComlist");
 let Carrittotalcomp = document.getElementById("idtotal");
+let urlParams = new URLSearchParams(window.location.search);
+let datosCodificadosDeURL = urlParams.get('datos');
+let datosDecodificados = decodeURIComponent(datosCodificadosDeURL);
+let shotsarray = JSON.parse(datosDecodificados);
 
 
 function Btngeneral(classnt,padre,array,posibt) {
@@ -7,7 +13,7 @@ function Btngeneral(classnt,padre,array,posibt) {
     newbtngeneral.setAttribute("class",classnt);//"btn btn-danger"
     newbtngeneral.setAttribute("value",posibt);//"btn btn-danger"
     newbtngeneral.textContent = "Borrar";
-    newbtngeneral.setAttribute("onclick","borrarcompra('" + array + "','" + posibt+ "');");
+    newbtngeneral.setAttribute("onclick","borrarcompra('"+array+"','"+posibt+"');");
     //newbtngeneral.setAttribute("height","70%");
     padre.appendChild(newbtngeneral);
     
@@ -16,19 +22,22 @@ function Btngeneral(classnt,padre,array,posibt) {
 
 
 
-function borrarcompra(array,posibt){
+function borrarcompra(arraycarri,posibt){
    /* if(array.length>0){
       array.splice(posibt,1);
       
     }*/
-   //array.splice(posibt,1);
-    alert("Borro posicion: "+posibt);
-
+   shotsarray.splice(posibt,1);
+   // alert("Borro posicion: "+shotsarray[posibt].Precio);
+   // alert("Tamaño: "+shotsarray.length);
+   // alert("Posicion: "+posibt);
+    //shotsarray.splice(posibt,1);
+     //alert("Tamaño despues de Borrar : "+arrfin.length);
+     
 }
 
 function creatrcarritoc(classetr) {//Crea los <tr></tr> para agrupar los datos
   let newtrgenelist = document.createElement("tr");
-
   newtrgenelist.setAttribute("class", classetr);
   Carritoitemspri.appendChild(newtrgenelist);
 
@@ -37,6 +46,7 @@ function creatrcarritoc(classetr) {//Crea los <tr></tr> para agrupar los datos
 
 function objearrcarlist(arrarticulo) {//Desplega datos de pedido carrito de compras los <tds></tds>
   let sumtotal=0;
+   
   for (let i = 0; i < arrarticulo.length; i++) {
     let trgen = creatrcarritoc("submenu"); //Crea el tr
 
@@ -101,7 +111,8 @@ function objearrcarlist(arrarticulo) {//Desplega datos de pedido carrito de comp
             
               trgen.appendChild(newtdgenelist);
               Btngeneral("btn btn-danger",newtdgenelist,shotsarray,i);//(classnt,padre,array,posibt)
-
+              
+             
             break;
         }
       }
