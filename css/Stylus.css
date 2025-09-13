@@ -6,7 +6,8 @@
         /*for absolutely positioning spinners*/
         position: static; 
         padding: 5px;
-        padding-right: 25px;
+        padding-right: 12px;
+        padding-left: 12px;
       }
 
       input[type=number]::-webkit-inner-spin-button,
@@ -68,7 +69,7 @@
 
   .boton {
     padding: 8px 15px;
-    font-size: large;
+    font-size: xx-large;
   }
 
   .btn-add-to-cart {
@@ -150,7 +151,7 @@
 
 .Titulo{
   text-align:center;
-  font-size:large;
+  font-size:x-large;
   font-weight:bold;
   font-family: Arial, sans-serif;
   text-decoration:underline;
@@ -182,7 +183,7 @@
     border: 1px solid #ebebeb;
     border-radius: 5px;
     margin: 0; padding: 0;
-    font-size: large;
+    font-size:xx-large;
 }
 .boton {
     display: block;
@@ -205,11 +206,11 @@
 }
 .btnlist li:first-child .boton {
     border-radius: 5px 0 0 5px;
-    font-size: large;
+    font-size: xx-large;
 }
 .btnlist li:last-child .boton {
     border-radius: 0 5px 5px 0;
-    font-size: large;
+    font-size: xx-large;
 }
 
 
@@ -280,16 +281,21 @@
   border: none; /* Sin borde */
   border-radius: 5px; /* Bordes redondeados */
   cursor: pointer; /* El cursor cambia a una mano */
-  font-size: 16px; /* Tamaño de la fuente */
+  font-size: x-large; /* Tamaño de la fuente */
   display: inline-flex; /* Para alinear icono y texto */
   align-items: center; /* Centra verticalmente icono y texto */
   gap: 10px; /* Espacio entre icono y texto */
-  
+  width: 20%;
+  height: 40%;
   
 }
 
 .btn-carrito .fa-shopping-cart {
-  font-size: 18px; /* Tamaño un poco más grande para el icono */
+  font-size: x-large; /* Tamaño un poco más grande para el icono */
+  width: 20%;
+  height: 50%;
+  align-items: center;
+  display: inline-flex;
 }
 
 

@@ -18,11 +18,11 @@ let SubTotal=0;
 let sumtotal=0;
   for(let i=0;i<shotsarray.length;i++){
     SubTotal=parseInt(shotsarray[i].Precio)*parseInt(shotsarray[i].Cantidad);
-      msg=`*[*  *Codigo:* ${shotsarray[i].Codigo}, *Nombre:* ${shotsarray[i].Descripcion}, *Precio Unidad:* C\$${shotsarray[i].Precio}, *Cantidad:* ${shotsarray[i].Cantidad}, *SubTotal:* C\$${SubTotal} *]-*`+msg;
+      msg=`*[*  *Codigo:* ${shotsarray[i].Codigo}, *Producto:* ${shotsarray[i].Descripcion}, *Precio Unidad:* C\$${shotsarray[i].Precio}, *Cantidad:* ${shotsarray[i].Cantidad}, *SubTotal:* C\$${SubTotal} *]-*`+msg;
        sumtotal=SubTotal+sumtotal;
 
   }
-  msg="*_Bella Store Pedido de Moda_*  "+msg+" *[ Total:* C$"+sumtotal+" *]*";
+  msg="_Bella Store Pedido de Moda_  "+msg+" *[ Total:* C$"+sumtotal+" *]*";
  
     return msg;
 }
@@ -31,7 +31,7 @@ let sumtotal=0;
 function creacarritobtnwhatsapp(){//crea boton Imprimir carrito
 let newcarrimsg=document.createElement("a");
 let newcarriimg=document.createElement("img");
-let numertel=+50581776694;
+let numertel=+505781776694;
 
 newcarrimsg.setAttribute("aria-label","Chat on WhatsApp");
 newcarrimsg.setAttribute("href", "https://wa.me/"+numertel+"/?text='"+ fmsgpedido() +"'");
