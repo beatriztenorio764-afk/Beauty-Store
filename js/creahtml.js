@@ -86,8 +86,7 @@ function valorbtcompver( ){//Funcion que trasnfiere las compras
 
    datosJSON = JSON.stringify(arrcarragrega);
    datosCodificados = encodeURIComponent(datosJSON);
-
-window.location.href =`CarritoCompras.html?datos=${datosCodificados}`;
+   window.location.href =`CarritoCompras.html?datos=${datosCodificados}`;
   //window.location.href = `CarritoCompras.html?nombre=${nombre}`;
     //alert("Ver compras: "+arrcarragrega.length);
 
