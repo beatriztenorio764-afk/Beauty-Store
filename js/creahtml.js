@@ -127,7 +127,7 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
       newImg.setAttribute("class", "w-100 d-block");
       newImg.setAttribute("alt", "Slide " + i)
             
-       newDiv.textContent="Codigo: "+arrimg[i].Codigo+","+" Articulo: "+arrimg[i].Descripcion+", Precio: "+arrimg[i].Precio;
+       newDiv.textContent="Codigo: "+arrimg[i].Codigo+","+" Articulo: "+arrimg[i].Descripcion+", Precio: C$"+arrimg[i].Precio;
       if (i === 0) {
         newDiv.classList.add("active");
       }
