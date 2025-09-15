@@ -28,7 +28,7 @@ let sumtotal=0;
 }
 
 
-function creacarritobtnwhatsapp(){//crea boton Imprimir carrito
+function creacarritobtnwhatsapp(){//crea boton de Whatsapp
 let newcarrimsg=document.createElement("a");
 let newcarriimg=document.createElement("img");
 let numertel=+505781776694;
