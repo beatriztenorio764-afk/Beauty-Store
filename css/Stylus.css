@@ -1,245 +1,183 @@
 /* Base styles for mobile devices (default) */
 
-  
- .body {padding: 10px;margin: 0px;
-width: 100%;
-      /* Para un ancho máximo, como es común en sitios de contenido */
-      max-width: 1200px; /* Ajusta según tus necesidades */
-      /* Centra el body en pantallas grandes si tiene un max-width */
-      margin: 0 auto;
-
-
+.container {
+  width: 100%;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles */
+/* Estilos para tablets y pantallas pequeñas (hasta 768px) */
+/* Estilos base (para móviles) */
+.body {
+  font-size: 16px; /* Tamaño de fuente para móviles */
+  margin: 10px;
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
+/* Media query para pantallas de 768px o más (tabletas y escritorio) */
+@media (min-width: 768px) {
+  .body {
+    font-size: 18px; /* Aumentar tamaño de fuente en pantallas más grandes */
+    margin: 20px;
+  }
 }
 
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-/* Styles */
+/* Media query para pantallas de 1200px o más (escritorios grandes) */
+@media (min-width: 1200px) {
+  .body {
+    font-size: 20px;
+    margin: 30px;
+  }
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-/* Styles */
-}
-/**********
-iPad 3
-**********/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
-}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
-}
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-/* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
-}
-
-/* iPhone 5 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-/* iPhone 6 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-/* iPhone 6+ ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-/* Samsung Galaxy S3 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
-}
-
-/* Samsung Galaxy S4 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
-}
-
-/* Samsung Galaxy S5 ----------- */
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
-}
-
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
-}
-
-
-      input[type=number] {
-        /*for absolutely positioning spinners*/
-        position: static; 
-        padding: 5px;
-        padding-right: 12px;
-        padding-left: 12px;
-      }
-
-      input[type=number]::-webkit-inner-spin-button,
-      input[type=number]::-webkit-outer-spin-button {
-        opacity: 1;
-      }
-
-      input[type=number]::-webkit-outer-spin-button, 
-      input[type=number]::-webkit-inner-spin-button {
-        -webkit-appearance: inner-spin-button !important;
-        
-        width: 25px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 100%;
-      }
-
-
-
-
-  .nvarprinblac {
-    font-size: large;
+@media (max-width: 480px) {  /*Funciona para mi telefono
+  /* Estilos para pantallas móviles */
+  .body {
+    font-size: 16px;
     padding: 10px;
-    margin-right: 5px;
+    margin: 0px;
   }
 
-  .nvarprin nav ul li {
-    font-size:small;
-    padding: 3px;
-    margin-right: 0.5%;
-    margin-top: 2%;
-    margin-bottom: 1%;
+
+
+
+}
+
+/* Estilos para escritorios (desde 992px) */
+@media (min-width: 992px) {
+  .container {
+    width: 70%;
   }
 
-  .tabprincipal {
-    width: 95%;
+  .body {
     padding: 10px;
-    margin-top: 10px;
+    margin: 0px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
   }
 
-  .imagelogo {
-    width: 100%;
-    height: 100%;
-    min-width: 10%;
-    min-height: 10%;
-    
-  }
+}
 
-  .colorcelda {
-    padding: 10%;
-    margin: 10%;
-    background-size: 60%;
-  }
 
-  
 
- 
+input[type=number] {
+  /*for absolutely positioning spinners*/
+  position: static;
+  padding: 5px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
 
-  .boton {
-    padding: 8px 15px;
-    font-size: xx-large;
-  }
 
-  .btn-add-to-cart {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
 
-  .inputnumber, input[type="number"] {
-    width: 100px;
-    padding: 6px;
-    font-size: 14px;
-  }
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+
+  width: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
 
 
 
 
+.nvarprinblac {
+  font-size: large;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.nvarprin nav ul li {
+  font-size: small;
+  padding: 3px;
+  margin-right: 0.5%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.tabprincipal {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.imagelogo {
+  width: 100%;
+  height: 100%;
+  min-width: 10%;
+  min-height: 10%;
+
+}
+
+.colorcelda {
+  padding: 10%;
+  margin: 10%;
+  background-size: 60%;
+}
 
 
 
 
-.tabprincipal{
+
+.boton {
+  padding: 8px 15px;
+  font-size: xx-large;
+}
+
+.btn-add-to-cart {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.inputnumber,
+input[type="number"] {
+  width: 100px;
+  padding: 6px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+.tabprincipal {
   /*background-image: url(../images/bg.jpg);*/
-    width:90%;
-    max-width:800px;
-  
-  
-  box-shadow:0 0 10px rgba(0,0,0,0.1);
-  margin-top:20px;
-  padding:20px;
-  transition:0.5s;
+  width: 90%;
+  max-width: 800px;
+
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 20px;
+  transition: 0.5s;
 
 }
 
 
-.colorcelda{  
-  background-color:#cdd0f3;
-  border-radius:5px;
-  box-shadow:0 0 5px rgba(0,0,0,0.3);
-  padding:15%;
+.colorcelda {
+  background-color: #cdd0f3;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 15%;
   margin: 15%;
-  transition:0.5s;  
+  transition: 0.5s;
   background-image: url(../images/TarjetaMorada.png);
-      /* Opcional: ajustar tamaño, repetición, etc. */
-      background-size:80%;
-      background-repeat:no-repeat;
-      background-position:center;
-  
-  
+  /* Opcional: ajustar tamaño, repetición, etc. */
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
 }
 
 
@@ -250,139 +188,160 @@ iPad 3
 
 
 
-.caruceltamadiv{  
- width: 50%;
+.caruceltamadiv {
+  width: 50%;
   height: 50%;
-  display:table-cell;
-  border-radius:5px;
-  box-shadow:0 0 5px rgba(0,0,0,0.3);
-  padding:2%;
+  display: table-cell;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 2%;
   margin: 2%;
-  transition:0.5s; 
+  transition: 0.5s;
   justify-content: center;
-    align-items: center ;  
+  align-items: center;
 
-      /* Opcional: ajustar tamaÃ±o, repeticiÃ³n, etc. */
-      background-size:10%;
-      background-repeat:no-repeat;
-      background-position:center;
+  /* Opcional: ajustar tamaÃ±o, repeticiÃ³n, etc. */
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
 
-  
-  
+
+
 }
 
-.Titulo{
-  text-align:center;
-  font-size:x-large;
-  font-weight:bold;
+.Titulo {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
   font-family: Arial, sans-serif;
-  text-decoration:underline;
+  text-decoration: underline;
   text-shadow: 2px 2px 4px #aaa;
-  color:#0a0a0a;
-  margin-top:10px;
-  margin-bottom:10px; 
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
-  
+
 }
 
-.Btcomprar{
-  text-align:center;
-  font-size:large;
-  font-weight:bold;
+.Btcomprar {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
   font-family: Arial, sans-serif;
-  text-decoration:underline;
+  text-decoration: underline;
   text-shadow: 2px 2px 4px #aaa;
-  color:#0a0a0a;
-  margin-top:10px;
-  margin-bottom:10px; 
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
-  
+
 }
 
 .btnlist {
-    list-style-type: none;
-    display: inline-flex;
-    border: 1px solid #ebebeb;
-    border-radius: 5px;
-    margin: 0; padding: 0;
-    font-size:xx-large;
+  list-style-type: none;
+  display: inline-flex;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  font-size: xx-large;
 }
+
 .boton {
-    display: block;
-    font-family: Arial;
-    font-weight: bold;
-    padding: 16px 30px;
-    text-decoration: none;
-    background: linear-gradient(#f2f2f2, #d8d8d8);
-    border-left: 1px solid #f6f6f6;
-    border-right: 1px solid #e4e4e4;
-    color: #88787a;
-    text-align: center;
-    margin: 0;
-    text-shadow: 0 0 2px rgba(0,0,0,.1);
+  display: block;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 16px 30px;
+  text-decoration: none;
+  background: linear-gradient(#f2f2f2, #d8d8d8);
+  border-left: 1px solid #f6f6f6;
+  border-right: 1px solid #e4e4e4;
+  color: #88787a;
+  text-align: center;
+  margin: 0;
+  text-shadow: 0 0 2px rgba(0, 0, 0, .1);
 }
+
 .boton:hover {
-    box-shadow: inset 1px 4px 6px 2px rgba(0,0,0,.1);
-    background: #ddd;
-    
+  box-shadow: inset 1px 4px 6px 2px rgba(0, 0, 0, .1);
+  background: #ddd;
+
 }
+
 .btnlist li:first-child .boton {
-    border-radius: 5px 0 0 5px;
-    font-size: xx-large;
+  border-radius: 5px 0 0 5px;
+  font-size: xx-large;
 }
+
 .btnlist li:last-child .boton {
-    border-radius: 0 5px 5px 0;
-    font-size: xx-large;
+  border-radius: 0 5px 5px 0;
+  font-size: xx-large;
 }
 
 
 .btn-add-to-cart {
-  background-color: #4CAF50; /* Color de fondo verde */
+  background-color: #4CAF50;
+  /* Color de fondo verde */
   border: none;
-  color: white; /* Texto blanco */
-  padding: 10px 20px; /* Relleno interno */
+  color: white;
+  /* Texto blanco */
+  padding: 10px 20px;
+  /* Relleno interno */
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
-  border-radius: 5px; /* Bordes redondeados */
-  transition: background-color 0.3s ease; /* Animación de cambio de color */
+  cursor: pointer;
+  /* Cambia el cursor a una mano al pasar por encima */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  transition: background-color 0.3s ease;
+  /* Animación de cambio de color */
 }
 
 .btn-add-to-cart:hover {
-  background-color: #45a049; /* Color de fondo más oscuro al pasar el ratón */
+  background-color: #45a049;
+  /* Color de fondo más oscuro al pasar el ratón */
 }
 
-.divconta{
-  position:sticky;
+.divconta {
+  position: sticky;
   width: 100%;
   height: 100%;
-  
+
 }
 
 .cart-trigger {
   width: 40%;
   /*min-width: 5%;*/
   height: 100%;
-  
-  position:sticky; /* Permite posicionar elementos dentro, como el contador */
-  background-color: #4CAF50; /* Color de fondo */
-  color: white; /* Color del texto y el icono */
-  padding: 10px 15px; /* Espaciado interno */
-  border: none; /* Sin borde */
-  border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* Cambia el cursor a mano al pasar sobre el botón */
-  font-size: 90%; /* Tamaño de fuente */
+
+  position: sticky;
+  /* Permite posicionar elementos dentro, como el contador */
+  background-color: #4CAF50;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto y el icono */
+  padding: 10px 15px;
+  /* Espaciado interno */
+  border: none;
+  /* Sin borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  /* Cambia el cursor a mano al pasar sobre el botón */
+  font-size: 90%;
+  /* Tamaño de fuente */
 }
 
 .cart-trigger:hover {
-  background-color: #45a049; /* Color de fondo al pasar el ratón */
+  background-color: #45a049;
+  /* Color de fondo al pasar el ratón */
 }
 
 .inputonumber {
-  
+
   padding: 2px;
   font-size: 14px;
   border: 1px solid #ccc;
@@ -397,23 +356,34 @@ iPad 3
 
 
 .btn-carrito {
-  background-color: #007bff; /* Color de fondo azul */
-  color: white; /* Texto blanco */
-  padding: 10px 15px; /* Relleno */
-  border: none; /* Sin borde */
-  border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* El cursor cambia a una mano */
-  font-size: x-large; /* Tamaño de la fuente */
-  display: inline-flex; /* Para alinear icono y texto */
-  align-items: center; /* Centra verticalmente icono y texto */
-  gap: 10px; /* Espacio entre icono y texto */
+  background-color: #007bff;
+  /* Color de fondo azul */
+  color: white;
+  /* Texto blanco */
+  padding: 10px 15px;
+  /* Relleno */
+  border: none;
+  /* Sin borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  /* El cursor cambia a una mano */
+  font-size: x-large;
+  /* Tamaño de la fuente */
+  display: inline-flex;
+  /* Para alinear icono y texto */
+  align-items: center;
+  /* Centra verticalmente icono y texto */
+  gap: 10px;
+  /* Espacio entre icono y texto */
   width: 20%;
   height: 40%;
-  
+
 }
 
 .btn-carrito .fa-shopping-cart {
-  font-size: x-large; /* Tamaño un poco más grande para el icono */
+  font-size: x-large;
+  /* Tamaño un poco más grande para el icono */
   width: 20%;
   height: 50%;
   align-items: center;
@@ -421,37 +391,38 @@ iPad 3
 }
 
 
-.trformacar{
-  text-align:center;
-  font-size:large;
-  font-weight:bold;
+.trformacar {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
   font-family: Arial, sans-serif;
-  text-decoration:underline;
+  text-decoration: underline;
   text-shadow: 2px 2px 4px #aaa;
-  color:#0a0a0a;
-  margin-top:10px;
-  margin-bottom:10px; 
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
-  
-}
-
-.submenu  {
-    font-family: Serpentine;
-    text-align: center;
-    font-size: 120%;
- 
-    
-}
-
-.lbsubtitulos{
-    font-weight: bold;
-    font-size: 140%;
-    font-family: Serpentine;
-    text-align: center;
 
 }
-.hidebtn{
-display: flex;
+
+.submenu {
+  font-family: Serpentine;
+  text-align: center;
+  font-size: 120%;
+
+
+}
+
+.lbsubtitulos {
+  font-weight: bold;
+  font-size: 140%;
+  font-family: Serpentine;
+  text-align: center;
+
+}
+
+.hidebtn {
+  display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -459,14 +430,18 @@ display: flex;
   font-size: small;
 }
 
-@media print{
-    .parte01, .btn, .accion, .hidebtn,.btn btn-danger{
+@media print {
 
-        display:none;
+  .parte01,
+  .btn,
+  .accion,
+  .hidebtn,
+  .btn btn-danger {
 
-    }
+    display: none;
+
+  }
 
 
-    
+
 }
-
