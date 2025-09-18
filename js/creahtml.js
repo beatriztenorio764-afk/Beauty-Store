@@ -65,7 +65,7 @@ objproducto = {
 shotsarray[4] = objproducto;
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_002.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_002.jpg",
   Descripcion: "Vestidos Puntos",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -75,7 +75,7 @@ objproducto = {
 shotsarray[5] = objproducto;
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_003.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_003.jpg",
   Descripcion: "Vestidos Negro",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -87,7 +87,7 @@ shotsarray[6] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_004.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_004.jpg",
   Descripcion: "Vestidos Negro",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -97,7 +97,7 @@ shotsarray[7] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_005.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_005.jpg",
   Descripcion: "Vestidos Negro",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -109,7 +109,7 @@ shotsarray[8] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_006.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_006.jpg",
   Descripcion: "Vestidos Negro transparente",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -122,7 +122,7 @@ shotsarray[9] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_007.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_007.jpg",
   Descripcion: "Vestidos Azul",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -133,7 +133,7 @@ shotsarray[10] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_008.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_008.jpg",
   Descripcion: "Vestidos Todo Momento",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -143,7 +143,7 @@ shotsarray[11] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_009.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_009.jpg",
   Descripcion: "Vestidos Todo Momento",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -154,7 +154,7 @@ shotsarray[12] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_010.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_010.jpg",
   Descripcion: "Vestidos Casual",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -164,7 +164,7 @@ shotsarray[13] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_011.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_011.jpg",
   Descripcion: "Vestidos de Formal",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -175,7 +175,7 @@ shotsarray[14] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_012.jpg.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_012.jpg.jpg",
   Descripcion: "Vestidos casual",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -185,7 +185,7 @@ shotsarray[15] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "/images/Fotos/Ropa/Vestidos/Vest2025_013.jpg.jpg",
+  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_013.jpg.jpg",
   Descripcion: "Vestidos Fiesta",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -198,7 +198,7 @@ shotsarray[16] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_001.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_001.jpg",
   Descripcion: "Zapatos casual",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -208,7 +208,7 @@ shotsarray[17] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_002.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_002.jpg",
   Descripcion: "Zapatos Vestir",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -219,7 +219,7 @@ shotsarray[18] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_003.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_003.jpg",
   Descripcion: "Zapatos gamusa",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -230,7 +230,7 @@ shotsarray[19] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_004.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_004.jpg",
   Descripcion: "Zapatos gamusa",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -241,7 +241,7 @@ shotsarray[20] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_005.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_005.jpg",
   Descripcion: "Zapatos gamusa",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -252,7 +252,7 @@ shotsarray[21] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_006.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_006.jpg",
   Descripcion: "Zapatos cuero",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -264,7 +264,7 @@ shotsarray[22] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_007.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_007.jpg",
   Descripcion: "Zapatos Cuerina",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -276,7 +276,7 @@ shotsarray[23] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_008.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_008.jpg",
   Descripcion: "Zapatos Sport",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -287,7 +287,7 @@ shotsarray[24] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_009.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_009.jpg",
   Descripcion: "Zapatos Casual",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -297,7 +297,7 @@ shotsarray[25] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "/images/Fotos/Ropa/Zapatos/Zap2025_010.jpg",
+  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_010.jpg",
   Descripcion: "Zapatos Vestir",
   Codigo: "CodSh05",
   Cantidad: 2,
