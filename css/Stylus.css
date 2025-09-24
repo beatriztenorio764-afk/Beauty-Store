@@ -426,6 +426,7 @@ input[type="number"] {
   color: #0a0a0a;
   margin-top: 10px;
   margin-bottom: 10px;
+  
 
 }
 
@@ -544,3 +545,16 @@ display: flex;
 
 }
 
+.divinputnum {
+  
+  font-size: 100%;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display:flex;
+
+}
