@@ -343,7 +343,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-
+  -webkit-appearance: button;
   appearance: button;
 }
 button:not(:disabled),
@@ -402,7 +402,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
- 
+  -webkit-appearance: textfield;
   appearance: textfield;
 }
 
@@ -414,7 +414,9 @@ legend + * {
   direction: ltr;
 }
 */
-
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
 ::-webkit-color-swatch-wrapper {
   padding: 0;
@@ -426,7 +428,7 @@ legend + * {
 
 ::-webkit-file-upload-button {
   font: inherit;
- 
+  -webkit-appearance: button;
 }
 
 output {
@@ -2161,7 +2163,7 @@ progress {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  
+  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   border-radius: 0.25rem;
@@ -2347,7 +2349,7 @@ textarea.form-control-lg {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  
+  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
@@ -2408,7 +2410,7 @@ textarea.form-control-lg {
   background-position: center;
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.25);
-  
+  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
@@ -2497,7 +2499,7 @@ textarea.form-control-lg {
   height: 1.5rem;
   padding: 0;
   background-color: transparent;
-  
+  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
@@ -2522,7 +2524,7 @@ textarea.form-control-lg {
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  
+  -webkit-appearance: none;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5729,12 +5731,11 @@ textarea.form-control-lg {
 }
 
 .carousel {
-  position:relative;
-
+  position: relative;
 }
 
 .carousel.pointer-event {
-  touch-action:auto; /*se cambio pan-y a auto para que no pase al siguiente imagen bloqueaba el zoom*/
+  touch-action:auto;
 }
 
 .carousel-inner {
@@ -5742,13 +5743,6 @@ textarea.form-control-lg {
   width: 100%;
   overflow: hidden;
 }
-
-.imgnormalizada img {
-  width: auto;
-  height: 225px;
-  max-height: 225px;
-}
-
 .carousel-inner::after {
   display: block;
   clear: both;

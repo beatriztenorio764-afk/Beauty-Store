@@ -16,7 +16,7 @@ const cantiingxarray=5;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "images/Fotos/Ropa/Blusas/Blus2025_001.jpg",
+  imagen: "https://i.postimg.cc/gcsC4MxR/Blus2025-001.jpg",
   Descripcion: "Short Primavera",
   Codigo: "CodSh01",
   Cantidad: 3,
@@ -26,7 +26,7 @@ shotsarray[0] = objproducto; //Arreglo imagenes
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "images/Fotos/Ropa/Blusas/Blus2025_002.jpg",
+  imagen: "https://i.postimg.cc/prs3Tdwk/Blus2025-002.jpg",
   Descripcion: "Short Verano",
   Codigo: "CodSh02",
   Cantidad: 4,
@@ -36,7 +36,7 @@ shotsarray[1] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "images/Fotos/Ropa/Blusas/Blus2025_003.jpg",
+  imagen: "https://i.postimg.cc/tTtLKkDK/Blus2025-003.jpg",
   Descripcion: "Short Casual",
   Codigo: "CodSh03",
   Cantidad: 1,
@@ -46,7 +46,7 @@ shotsarray[2] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "images/Fotos/Ropa/Blusas/Blus2025_004.jpg",
+  imagen: "https://i.postimg.cc/1XmLsFjf/Blus2025-004.jpg",
   Descripcion: "Short Casual",
   Codigo: "CodSh04",
   Cantidad: 6,
@@ -56,7 +56,7 @@ shotsarray[3] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_001.jpg",
+  imagen: "https://i.postimg.cc/9QPXmdxB/Vest2025-001.jpg",
   Descripcion: "Vestidos Mariposas",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -65,7 +65,7 @@ objproducto = {
 shotsarray[4] = objproducto;
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_002.jpg",
+  imagen: "https://i.postimg.cc/XY676HgJ/Vest2025-002.jpg",
   Descripcion: "Vestidos Puntos",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -75,7 +75,7 @@ objproducto = {
 shotsarray[5] = objproducto;
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_003.jpg",
+  imagen: "https://i.postimg.cc/G3Nmqh8v/Vest2025-003.jpg",
   Descripcion: "Vestidos Negro",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -87,7 +87,7 @@ shotsarray[6] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_004.jpg",
+  imagen: "https://i.postimg.cc/VLCLTQnp/Vest2025-004.jpg",
   Descripcion: "Vestidos Negro",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -97,7 +97,7 @@ shotsarray[7] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_005.jpg",
+  imagen: "https://i.postimg.cc/3wK8dkVQ/Vest2025-005.jpg",
   Descripcion: "Vestidos Negro",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -109,7 +109,7 @@ shotsarray[8] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_006.jpg",
+  imagen: "https://i.postimg.cc/LsNHfHFY/Vest2025-006.jpg",
   Descripcion: "Vestidos Negro transparente",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -122,7 +122,7 @@ shotsarray[9] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_007.jpg",
+  imagen: "https://i.postimg.cc/RFhvLjvP/Vest2025-007.jpg",
   Descripcion: "Vestidos Azul",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -133,7 +133,7 @@ shotsarray[10] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_008.jpg",
+  imagen: "https://i.postimg.cc/vBKbq3BG/Vest2025-008.jpg",
   Descripcion: "Vestidos Todo Momento",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -143,7 +143,7 @@ shotsarray[11] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_009.jpg",
+  imagen: "https://i.postimg.cc/MHjxhVMV/Vest2025-009.jpg",
   Descripcion: "Vestidos Todo Momento",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -154,7 +154,7 @@ shotsarray[12] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_010.jpg",
+  imagen: "https://i.postimg.cc/WtLjjzgK/Vest2025-010.jpg",
   Descripcion: "Vestidos Casual",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -164,7 +164,7 @@ shotsarray[13] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_011.jpg",
+  imagen: "https://i.postimg.cc/J7yk1Fjc/Vest2025-011.jpg",
   Descripcion: "Vestidos de Formal",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -175,7 +175,7 @@ shotsarray[14] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_012.jpg.jpg",
+  imagen: "https://i.postimg.cc/VkwrWLpD/Vest2025-012-jpg.jpg",
   Descripcion: "Vestidos casual",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -185,7 +185,7 @@ shotsarray[15] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "images/Fotos/Ropa/Vestidos/Vest2025_013.jpg.jpg",
+  imagen: "https://i.postimg.cc/8kqrsbH8/Vest2025-013-jpg.jpg",
   Descripcion: "Vestidos Fiesta",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -198,7 +198,7 @@ shotsarray[16] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_001.jpg",
+  imagen: "https://i.postimg.cc/DzHbsdTb/Zap2025-001.jpg",
   Descripcion: "Zapatos casual",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -208,7 +208,7 @@ shotsarray[17] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_002.jpg",
+  imagen: "https://i.postimg.cc/SxKXvtQM/Zap2025-002.png",
   Descripcion: "Zapatos Vestir",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -219,7 +219,7 @@ shotsarray[18] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_003.jpg",
+  imagen: "https://i.postimg.cc/tT6nzZqv/Zap2025-003.jpg",
   Descripcion: "Zapatos gamusa",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -230,7 +230,7 @@ shotsarray[19] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_004.jpg",
+  imagen: "https://i.postimg.cc/43m9m2rg/Zap2025-004.jpg",
   Descripcion: "Zapatos gamusa",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -241,7 +241,7 @@ shotsarray[20] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_005.jpg",
+  imagen: "https://i.postimg.cc/0jqMXkrk/Zap2025-005.jpg",
   Descripcion: "Zapatos gamusa",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -252,7 +252,7 @@ shotsarray[21] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_006.jpg",
+  imagen: "https://i.postimg.cc/SR7XwBzW/Zap2025-006.jpg",
   Descripcion: "Zapatos cuero",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -264,7 +264,7 @@ shotsarray[22] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_007.jpg",
+  imagen: "https://i.postimg.cc/y6FSgZrk/Zap2025-007.jpg",
   Descripcion: "Zapatos Cuerina",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -276,7 +276,7 @@ shotsarray[23] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_008.jpg",
+  imagen: "https://i.postimg.cc/TYf5r3ZQ/Zap2025-008.jpg",
   Descripcion: "Zapatos Sport",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -287,7 +287,7 @@ shotsarray[24] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_009.jpg",
+  imagen: "https://i.postimg.cc/gksX4Ppp/Zap2025-009.jpg",
   Descripcion: "Zapatos Casual",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -297,7 +297,7 @@ shotsarray[25] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "images/Fotos/Ropa/Zapatos/Zap2025_010.jpg",
+  imagen: "https://i.postimg.cc/TPzphdVV/Zap2025-010.jpg",
   Descripcion: "Zapatos Vestir",
   Codigo: "CodSh05",
   Cantidad: 2,
@@ -498,15 +498,26 @@ function valorbt(btvalor, idvisorbt) {
   let arrcadenasplit;
   let indicecadena=0;
 
+  
   if (objetocantprodu === undefined) {
     visor = idvisorbt;
+     
   } else {
-    visor = objetocantprodu.nombrevisor;
-    cantisoli = objetocantprodu.eventnum.value;
+    if(objetocantprodu.nombrevisor !== idvisorbt){
+            visor = idvisorbt;
+           
+
+    }else{
+
+      visor = objetocantprodu.nombrevisor;
+      cantisoli = objetocantprodu.eventnum.value;
+
+    }
+    
   }
 
   if (visor === idvisorbt) {
-     ///alert("idvisorbt: "+idvisorbt);  
+     
     
      arrcadenasplit=idvisorbt.split("-") //"idbtcompra"0-nombre1-Cantidadarreglos2-numero arreglo3-Residuo del ultimo arreglo4
      
@@ -540,6 +551,7 @@ function valorbt(btvalor, idvisorbt) {
     //alert("Valor: " + btvalor+" Idboton: "+idvisorbt);
     //alert("El producto es: "+shotsarray[btvalor].nombre);
     //alert("El producto es: "+shotsarray[btvalor].Precio);
+    objetocantprodu.eventnum.value=1;
   }
 
 }
@@ -554,6 +566,22 @@ function valorbtnumeroprod(idbtcompra, i) {
   // alert("El nombre onclick "+elemento.name); // da el nombre del control
   //  alert("El Visor se llama "+visorimg); // da el nombre del control
   // alert("La descripcion es: "+principal.textContent); // da el nombre del control
+
+  if (window.cordova && window.cordova.plugins.keyboard) {
+     
+      window.cordova.plugins.keyboard.hide();
+    }else{
+
+       const inputElement = elemento;
+    if (inputElement) {
+      inputElement.blur(); // Elimina el foco del elemento
+    }
+    }
+
+  objetocantprodu = {
+    eventnum: elemento,
+    nombrevisor: idbtcompra,
+  };
 
   objetocantprodu = {
     eventnum: elemento,

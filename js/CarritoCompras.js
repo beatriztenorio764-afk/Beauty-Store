@@ -34,9 +34,12 @@ let newcarriimg=document.createElement("img");
 let numertel=+50578808247;
 
 newcarrimsg.setAttribute("aria-label","Chat on WhatsApp");
-newcarrimsg.setAttribute("href", "https://wa.me/"+numertel+"/?text='"+ fmsgpedido() +"'");
+newcarrimsg.setAttribute("href", "https://wa.me/"+numertel+"/?text='"+ fmsgpedido() +"'");//.Whatsapp
+newcarriimg.setAttribute("class","Whatsapp");
+
 
 newcarriimg.setAttribute("alt","Chat on WhatsApp");
+
 newcarriimg.setAttribute("src","./ChatOnWhatsAppButton/WhatsAppButtonGreenSmall.png");
 
 
