@@ -2,11 +2,12 @@
   .body {
     font-size:  80%; /* Aumentar tamaño de fuente en pantallas más grandes */
     margin: 0px;
-    padding: 10px;
+    
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center;
+    text-align: center;
 
 
   }
@@ -52,13 +53,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 
 
-.imagelogo {
-  width: 100%;
-  height: 100%;
-  min-width: 10%;
-  min-height: 10%;
 
-}
 
 
 
@@ -380,9 +375,9 @@ input[type="number"] {
   padding: 15%;
   margin: 15%;
   transition: 0.5s;
-  background-image: url(../images/TarjetaMorada.png);
+  background-image: url(../images/Pordata/modamujer01.png);
   /* Opcional: ajustar tamaÃ±o, repeticiÃ³n, etc. */
-  background-size: 80%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -400,8 +395,8 @@ input[type="number"] {
 
 
 .caruceltamadiv {
-  width: 50%;
-  height: 50%;
+ width:50%; 
+ height:50%;
   display: table-cell;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -518,3 +513,34 @@ display: flex;
           white-space: nowrap; /* Evita que el texto se divida en varias líneas */
           animation: typing 3.5s steps(30, end) forwards; /* Aplica la animación */
         }
+
+       
+       
+
+
+
+        .contenedor-flex {
+  display: flex; /* Activa el modelo de caja flexible */
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  align-items: center; /* Alinea los elementos verticalmente al centro (opcional) */
+}
+
+.imagen-flex {
+  /* Puedes añadir aquí estilos específicos para la imagen */
+  margin-right: 20px; /* Para separar la imagen del texto */
+}
+
+
+.imagelogob {
+  width: 100%;
+  height: 250px;
+  align-items: right;
+  align-content: right;
+  justify-content: right;
+  justify-items: right;
+  text-align: right;
+
+  
+
+}
+
