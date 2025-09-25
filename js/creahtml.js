@@ -382,8 +382,9 @@ function Btcarritoc(idbtcompra, i, newDiv) {
   newDivbtn.setAttribute("class", "divinputnum");
   newbtn.setAttribute("id", idbtcompra);
   newbtn.setAttribute("value", i);
-  newbtn.setAttribute("class", "btn btn-outline-success");
+  newbtn.setAttribute("class", "btn btn-success");
   newbtn.setAttribute("onclick", "valorbt('" + i + "','" + idbtcompra + "');"); //valorbt(btvalor,idvisorbt)
+  
   newbtn.textContent = "Añadir";
   
   newbtn.type = "button";
