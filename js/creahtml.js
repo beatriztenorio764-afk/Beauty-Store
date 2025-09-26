@@ -379,14 +379,12 @@ function Btcarritoc(idbtcompra, i, newDiv) {
   let newDivbtn = document.createElement("div");
   let newbtn = document.createElement("button");
 
-  newDivbtn.setAttribute("class", "divinputnum");
+  newDivbtn.setAttribute("class", "Titulo");
   newbtn.setAttribute("id", idbtcompra);
   newbtn.setAttribute("value", i);
-  newbtn.setAttribute("class", "btn btn-success");
+  newbtn.setAttribute("class", "btn btn-outline-success");
   newbtn.setAttribute("onclick", "valorbt('" + i + "','" + idbtcompra + "');"); //valorbt(btvalor,idvisorbt)
-  
-  newbtn.textContent = "Añadir";
-  
+  newbtn.textContent = "Añadir Pedido";
   newbtn.type = "button";
   newbtn.value = i;
 
