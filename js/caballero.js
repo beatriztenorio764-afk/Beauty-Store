@@ -330,6 +330,7 @@ function valorbt(btvalor, idvisorbt) {
       Codigo: shotsarray[btvalor].Codigo,
       Cantidad: cantisoli,
       Precio: shotsarray[btvalor].Precio,
+      Imagen: shotsarray[btvalor].imagen,
     };
 
     arrcarragrega[arrcarragrega.length] = objetoagregaprodu;

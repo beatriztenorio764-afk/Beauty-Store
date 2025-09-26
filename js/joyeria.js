@@ -324,12 +324,13 @@ function valorbt(btvalor, idvisorbt) {
                                                                                                                                                                                                                                                                                                 
 
       
-    objetoagregaprodu = {
+     objetoagregaprodu = {
       nombre: shotsarray[btvalor].nombre,
       Descripcion: shotsarray[btvalor].Descripcion,
       Codigo: shotsarray[btvalor].Codigo,
       Cantidad: cantisoli,
       Precio: shotsarray[btvalor].Precio,
+      Imagen: shotsarray[btvalor].imagen,
     };
 
     arrcarragrega[arrcarragrega.length] = objetoagregaprodu;

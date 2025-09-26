@@ -379,12 +379,14 @@ function Btcarritoc(idbtcompra, i, newDiv) {
   let newDivbtn = document.createElement("div");
   let newbtn = document.createElement("button");
 
-  newDivbtn.setAttribute("class", "Titulo");
+  newDivbtn.setAttribute("class", "divinputnum");
   newbtn.setAttribute("id", idbtcompra);
   newbtn.setAttribute("value", i);
-  newbtn.setAttribute("class", "btn btn-outline-success");
+  newbtn.setAttribute("class", "btn btn-success");
   newbtn.setAttribute("onclick", "valorbt('" + i + "','" + idbtcompra + "');"); //valorbt(btvalor,idvisorbt)
-  newbtn.textContent = "Añadir Pedido";
+  
+  newbtn.textContent = "Añadir";
+  
   newbtn.type = "button";
   newbtn.value = i;
 
@@ -544,6 +546,7 @@ function valorbt(btvalor, idvisorbt) {
       Codigo: shotsarray[btvalor].Codigo,
       Cantidad: cantisoli,
       Precio: shotsarray[btvalor].Precio,
+      Imagen: shotsarray[btvalor].imagen,
     };
 
     arrcarragrega[arrcarragrega.length] = objetoagregaprodu;
