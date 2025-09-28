@@ -17,7 +17,7 @@ const cantiingxarray=5;
 objproducto = {
   nombre: "Blusas",
   imagen: "https://i.postimg.cc/gcsC4MxR/Blus2025-001.jpg",
-  Descripcion: "Blusa Primavera",
+  Descripcion: "Short Primavera",
   Codigo: "CodSh01",
   Cantidad: 3,
   Precio: 100,
@@ -27,7 +27,7 @@ shotsarray[0] = objproducto; //Arreglo imagenes
 objproducto = {
   nombre: "Blusas",
   imagen: "https://i.postimg.cc/prs3Tdwk/Blus2025-002.jpg",
-  Descripcion: "Blusa Verano",
+  Descripcion: "Short Verano",
   Codigo: "CodSh02",
   Cantidad: 4,
   Precio: 150,
@@ -37,7 +37,7 @@ shotsarray[1] = objproducto;
 objproducto = {
   nombre: "Blusas",
   imagen: "https://i.postimg.cc/tTtLKkDK/Blus2025-003.jpg",
-  Descripcion: "Blusa Casual",
+  Descripcion: "Short Casual",
   Codigo: "CodSh03",
   Cantidad: 1,
   Precio: 200,
@@ -47,7 +47,7 @@ shotsarray[2] = objproducto;
 objproducto = {
   nombre: "Blusas",
   imagen: "https://i.postimg.cc/1XmLsFjf/Blus2025-004.jpg",
-  Descripcion: "Blusa Casual",
+  Descripcion: "Short Casual",
   Codigo: "CodSh04",
   Cantidad: 6,
   Precio: 250,
@@ -325,6 +325,8 @@ function valorbtcompver() {
   //alert("Ver compras: "+arrcarragrega.length);
 }
 
+
+
 function creacarritocomex() {
   //crea boton ver las compras
   let newcarritocomex = document.createElement("button");
@@ -340,13 +342,13 @@ function creacarritocomex() {
   newcarritocomex.appendChild(newetique);
 }
 
+
 function Fimgdb(img ){
 
 event.preventDefault();
 window.open(img, '_blank'); 
 
 }
-
 
 function creaimgcar(contenedor, arrimg, idbtcompra) {
   //carga las imagenes y botones de compra
@@ -361,7 +363,6 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
       newImg.setAttribute("class", "w-100 d-block");
       newImg.setAttribute("alt", "Slide " + i);
       newImg.setAttribute("ondblclick", "Fimgdb('"+arrimg[i].imagen+"');");
-
 
       newDiv.textContent =
         "Codigo: " +

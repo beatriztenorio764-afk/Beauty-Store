@@ -124,6 +124,13 @@ function creacarritocomex() {
   newcarritocomex.appendChild(newetique);
 }
 
+function Fimgdb(img ){
+
+event.preventDefault();
+window.open(img, '_blank'); 
+
+}
+
 function creaimgcar(contenedor, arrimg, idbtcompra) {
   //carga las imagenes y botones de compra
   if (contenedor) {
@@ -136,6 +143,7 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
       newImg.setAttribute("src", arrimg[i].imagen);
       newImg.setAttribute("class", "w-100 d-block");
       newImg.setAttribute("alt", "Slide " + i);
+      newImg.setAttribute("ondblclick", "Fimgdb('"+arrimg[i].imagen+"');");
 
       newDiv.textContent =
         "Codigo: " +
