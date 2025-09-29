@@ -374,16 +374,18 @@ input[type="number"] {
 
 .colorcelda {
 
+  
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   padding: 15%;
   margin: 15%;
   transition: 0.5s;
-  background-image: url(../images/Pordata/modamujer01.png);
+  background-image: url(../images/Pordata/Tecnochips.png);
   /* Opcional: ajustar tamaÃ±o, repeticiÃ³n, etc. */
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  text-align: center;
+  
 
 
 }
