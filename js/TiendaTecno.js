@@ -67,6 +67,95 @@ objproducto = {
 shotsarray[4] = objproducto;
 
 
+objproducto = {
+  nombre: "Audifonos",
+  imagen: "https://i.postimg.cc/s24hmWS1/TWS-W32-II.png",
+  Descripcion: "TWS-W32",
+  Codigo: "Codaudi06",
+  Cantidad: 1,
+  Precio: 850,
+};
+shotsarray[5] = objproducto;
+
+
+objproducto = {
+  nombre: "Audifonos",
+  imagen: "https://i.postimg.cc/9fDMkND4/TWS-W36I.png",
+  Descripcion: "TWS-W36",
+  Codigo: "Codaudi07",
+  Cantidad: 1,
+  Precio: 1050,
+};
+shotsarray[6] = objproducto;
+
+
+objproducto = {
+  nombre: "Audifonos",
+  imagen: "https://i.postimg.cc/J7SzyQdm/XY07II.png",
+  Descripcion: "XY07",
+  Codigo: "Codaudi08",
+  Cantidad: 1,
+  Precio: 1000,
+};
+shotsarray[7] = objproducto;
+
+
+
+objproducto = {
+  nombre: "Audifonos",
+  imagen: "https://i.postimg.cc/t4WdXRmS/u70.png",
+  Descripcion: "U70",
+  Codigo: "Codaudi09",
+  Cantidad: 1,
+  Precio: 1050,
+};
+shotsarray[8] = objproducto;
+
+
+objproducto = {
+  nombre: "Audifonos",
+  imagen: "	https://sc04.alicdn.com/kf/H07ccb9a7deb54f8194d94b30f3a76a6b6.jpg_350x350.jpg",
+  Descripcion: "Yison B5",
+  Codigo: "Codaudi10",
+  Cantidad: 1,
+  Precio: 750,
+};
+shotsarray[9] = objproducto;
+
+
+objproducto = {
+  nombre: "Audifonos",
+  imagen: "https://i.postimg.cc/7hRMV0Mm/Celebra-A-23.png",
+  Descripcion: "Celebra A23",
+  Codigo: "Codaudi11",
+  Cantidad: 1,
+  Precio: 1000,
+};
+shotsarray[10] = objproducto;
+
+objproducto = {
+  nombre: "Audifonos",
+  imagen: "	https://i.postimg.cc/TP2t3mG1/Celebra-A18-F.jpg",
+  Descripcion: "Celebra A18",
+  Codigo: "Codaudi12",
+  Cantidad: 1,
+  Precio: 1000,
+};
+shotsarray[11] = objproducto;
+
+
+objproducto = {
+  nombre: "Audifonos",
+  imagen: "	https://i.postimg.cc/KzgCCt7r/Y60I.png",
+  Descripcion: "Y60",
+  Codigo: "Codaudi13",
+  Cantidad: 1,
+  Precio: 750,
+};
+shotsarray[11] = objproducto;
+
+
+
 
 listproarray[0] = "Audifonos"; //Arreglo imagenes
 listproarray[1] = "Blusas";
@@ -88,7 +177,7 @@ function valorbtcompver() {
 
   datosJSON = JSON.stringify(arrcarragrega);
   datosCodificados = encodeURIComponent(datosJSON);
-  window.location.href = `CarritoCompras.html?datos=${datosCodificados}`;
+  window.location.href = `CarritoComprasTiendaTecno.html?datos=${datosCodificados}`;
   //window.location.href = `CarritoCompras.html?nombre=${nombre}`;
   //alert("Ver compras: "+arrcarragrega.length);
 }
