@@ -16,7 +16,7 @@ function fmsgpedido(){//Mensaje de Pedido
 let msg=" -";
 let mlink=" ";
 let SubTotal=0;
-let sumtotal=0;
+ sumtotal=0;
   for(let i=0;i<shotsarray.length;i++){
     mlink=shotsarray[i].Imagen;
    
@@ -116,15 +116,14 @@ function creatrcarritoc(classetr) {//Crea los <tr></tr> para agrupar los datos
   return newtrgenelist;
 }
 
-function Fimgdb(img ){
-
+function Fimgdb(img ){//Va al sitio que marca la imagen al dar doble click sobre ella
 event.preventDefault();
 window.open(img, '_blank'); 
 
 }
 
 
-function valorbtnumeroprod(idbtcompra, i) {//Cambia el valor del procducto
+function valorbtnumeroprod(i) {//Cambia el valor del procducto campo numero en cantidad
   let elemento = event.target;
   let idproducto="idsubtotalpro"+i
   let valuetdtotalsubtotal=document.getElementById(idproducto);
@@ -155,7 +154,7 @@ for(let m=0;m<shotsarray.length;m++){
   
 }
 
-function Numprod(newDiv, idbtcompra, i) {
+function Numprod(newDiv, i) {
   //Cantidad de producto a comprar
   let newDivnumprod = document.createElement("div");
   let newInputcant = document.createElement("input");
@@ -171,7 +170,7 @@ function Numprod(newDiv, idbtcompra, i) {
   newInputcant.style = "width:50px";
   newInputcant.setAttribute(
     "onclick",
-    "valorbtnumeroprod('" + idbtcompra + "','" + i + "');"
+    "valorbtnumeroprod('" + i + "');"
   );
 
   newDiv.appendChild(newDivnumprod);
@@ -181,7 +180,7 @@ function Numprod(newDiv, idbtcompra, i) {
 
 
 function objearrcarlist(arrarticulo) {//Desplega datos de pedido carrito de compras los <tds></tds>
-  let sumtotal=0;
+  sumtotal=0;
 
   creacarritocomex();
   creacarritobtnwhatsapp(); 
@@ -201,15 +200,10 @@ function objearrcarlist(arrarticulo) {//Desplega datos de pedido carrito de comp
         }
 
         case 1: {
-          let newtdgenelist = document.createElement("td"); //Crea td
+          let newtdgenelist = document.createElement("td"); //Crea td para campo del producto imagen
           let newimgdes= document.createElement("img");
-
-          //newtdgenelist.textContent = shotsarray[i].nombre;
           newimgdes.setAttribute("src",shotsarray[i].Imagen);
           newimgdes.setAttribute("ondblclick", "Fimgdb('"+shotsarray[i].Imagen+"');");
-          
-          
-
           trgen.appendChild(newtdgenelist);
           newtdgenelist.appendChild(newimgdes);
             
@@ -236,7 +230,7 @@ function objearrcarlist(arrarticulo) {//Desplega datos de pedido carrito de comp
           let newtdgenelist = document.createElement("td"); //Crea td Cantidad
 
         
-          Numprod(newtdgenelist, "CantidadMese", i);
+          Numprod(newtdgenelist, i);
           trgen.appendChild(newtdgenelist);
           break;
         }
@@ -245,8 +239,8 @@ function objearrcarlist(arrarticulo) {//Desplega datos de pedido carrito de comp
           let newtdgenelist = document.createElement("td"); //Crea td Cantidad
           let idsubtotal="idsubtotalpro"+i;
           newtdgenelist.setAttribute("id",idsubtotal);
-          newtdgenelist.textContent ="C$"+(parseInt(shotsarray[i].Precio) * shotsarray[i].Cantidad);
-          sumtotal=sumtotal+(parseInt(shotsarray[i].Precio) * shotsarray[i].Cantidad);
+          newtdgenelist.textContent ="C$"+(parseInt(shotsarray[i].Precio) * shotsarray[i].Cantidad);//SumaSubtotal
+          sumtotal=sumtotal+(parseInt(shotsarray[i].Precio) * shotsarray[i].Cantidad);//Sumatotal
           trgen.appendChild(newtdgenelist);
           break;
         }
