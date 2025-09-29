@@ -27,10 +27,10 @@ shotsarray[0] = objproducto; //Arreglo imagenes
 objproducto = {
   nombre: "Vestidos",
   imagen: "https://i.postimg.cc/52w5knR1/Vestido-2025002.jpg",
-  Descripcion: "Amarillo Con Fajon",
+  Descripcion: "Talla M",
   Codigo: "Codves02",
   Cantidad: 4,
-  Precio: 650,
+  Precio: 660,
 };
 shotsarray[1] = objproducto;
 
@@ -921,6 +921,105 @@ objproducto = {
 shotsarray[82] = objproducto;
 
 
+objproducto = {
+  nombre: "Zapatos",
+  imagen: "https://i.postimg.cc/LsvzDLdN/Zapato-2025001.jpg",
+  Descripcion: "Talla ",
+  Codigo: "CodZapato01",
+  Cantidad: 1,
+  Precio: 0,
+};
+shotsarray[83] = objproducto;
+
+
+objproducto = {
+  nombre: "Zapatos",
+  imagen: "https://i.postimg.cc/9f1GbZ3Z/Zapato-2025002.jpg",
+  Descripcion: "Talla ",
+  Codigo: "CodZapato02",
+  Cantidad: 1,
+  Precio: 0,
+};
+shotsarray[84] = objproducto;
+
+objproducto = {
+  nombre: "Zapatos",
+  imagen: "https://i.postimg.cc/VN4jgnyX/Zapato-2025003.jpg",
+  Descripcion: "Talla ",
+  Codigo: "CodZapato03",
+  Cantidad: 1,
+  Precio: 0,
+};
+shotsarray[85] = objproducto;
+
+
+objproducto = {
+  nombre: "Zapatos",
+  imagen: "https://i.postimg.cc/1zMpBwxV/Zapato-2025004.jpg",
+  Descripcion: "Talla ",
+  Codigo: "CodZapato04",
+  Cantidad: 1,
+  Precio: 0,
+};
+shotsarray[86] = objproducto;
+
+
+objproducto = {
+  nombre: "Zapatos",
+  imagen: "https://i.postimg.cc/PxR1sH5f/Zapato-2025005.jpg",
+  Descripcion: "Talla ",
+  Codigo: "CodZapato05",
+  Cantidad: 1,
+  Precio: 0,
+};
+shotsarray[87] = objproducto;
+
+
+
+objproducto = {
+  nombre: "Zapatos",
+  imagen: "https://i.postimg.cc/4yHVX0YF/Zapato-2025006.jpg",
+  Descripcion: "Talla ",
+  Codigo: "CodZapato06",
+  Cantidad: 1,
+  Precio: 0,
+};
+shotsarray[88] = objproducto;
+
+
+objproducto = {
+  nombre: "Licras",
+  imagen: "https://i.postimg.cc/hvSD4zZJ/Licra-2025001.jpg",
+  Descripcion: "Talla S",
+  Codigo: "CodLicra01",
+  Cantidad: 1,
+  Precio: 310,
+};
+shotsarray[89] = objproducto;
+
+
+objproducto = {
+  nombre: "Palazos",
+  imagen: "https://i.postimg.cc/qM6JJTjv/Palazo-2025001.jpg",
+  Descripcion: "Talla L-XL",
+  Codigo: "CodPalazo01",
+  Cantidad: 1,
+  Precio: 560,
+};
+shotsarray[90] = objproducto;
+
+objproducto = {
+  nombre: "Shorts",
+  imagen: "https://i.postimg.cc/FRGyHcFk/Short-2025001.jpg",
+  Descripcion: "Talla L",
+  Codigo: "CodShort01",
+  Cantidad: 1,
+  Precio: 570,
+};
+shotsarray[91] = objproducto;
+
+
+
 
 listproarray[0] = "Vestidos"; //Arreglo imagenes
 listproarray[1] = "Blusas";
@@ -930,6 +1029,10 @@ listproarray[4] = "Conjuntos";
 listproarray[5] = "Faldas";
 listproarray[6] = "BodySuit";
 listproarray[7] = "CropTop";
+listproarray[8] = "Zapatos";
+listproarray[9] = "Licras";
+listproarray[10] = "Palazos";
+listproarray[11] = "Shorts";
 
 arrfiltraproduct=cantidadarray();
 
