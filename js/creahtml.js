@@ -16,7 +16,7 @@ const cantiingxarray=5;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025001.jpg",
+  imagen: "https://i.postimg.cc/bwXHTK3v/Vestido-2025001.jpg",
   Descripcion: "Talla L-XL",
   Codigo: "Codves01",
   Cantidad: 1,
@@ -26,7 +26,7 @@ shotsarray[0] = objproducto; //Arreglo imagenes
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025002.jpg",
+  imagen: "https://i.postimg.cc/52w5knR1/Vestido-2025002.jpg",
   Descripcion: "Talla M",
   Codigo: "Codves02",
   Cantidad: 4,
@@ -36,7 +36,7 @@ shotsarray[1] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025003.jpg",
+  imagen: "https://i.postimg.cc/Jzb3dP2r/Vestido-2025003.jpg",
   Descripcion: "Talla S",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -46,7 +46,7 @@ shotsarray[2] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025004.jpg",
+  imagen: "https://i.postimg.cc/rwSGYQPK/Vestido-2025004.jpg",
   Descripcion: "Talla L",
   Codigo: "Codves04",
   Cantidad: 1,
@@ -59,7 +59,7 @@ shotsarray[3] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025005.jpg",
+  imagen: "https://i.postimg.cc/L8zk0Nb1/Vestido-2025005.jpg",
   Descripcion: "Talla L",
   Codigo: "Codves05",
   Cantidad: 1,
@@ -71,7 +71,7 @@ shotsarray[4] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025006.jpg",
+  imagen: "https://i.postimg.cc/Bnx5wMVc/Vestido-2025006.jpg",
   Descripcion: "Talla M",
   Codigo: "Codves06",
   Cantidad: 1,
@@ -81,7 +81,7 @@ shotsarray[5] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025007.jpg",
+  imagen: "https://i.postimg.cc/q74cfyP6/Vestido-2025007.jpg",
   Descripcion: "Talla Unitalla",
   Codigo: "Codves07",
   Cantidad: 1,
@@ -92,7 +92,7 @@ shotsarray[6] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025008.jpg",
+  imagen: "https://i.postimg.cc/W4TmRgBZ/Vestido-2025008.jpg",
   Descripcion: "Talla Unitalla",
   Codigo: "Codves08",
   Cantidad: 1,
@@ -105,7 +105,7 @@ shotsarray[7] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025009.jpg",
+  imagen: "https://i.postimg.cc/xdnGrMwv/Vestido-2025009.jpg",
   Descripcion: "Talla M ",
   Codigo: "Codves09",
   Cantidad: 1,
@@ -116,7 +116,7 @@ shotsarray[8] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025010.jpg",
+  imagen: "https://i.postimg.cc/yNshqcMP/Vestido-2025010.jpg",
   Descripcion: "Talla XL-S",
   Codigo: "Codves10",
   Cantidad: 1,
@@ -128,7 +128,7 @@ shotsarray[9] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025011.jpg",
+  imagen: "https://i.postimg.cc/SKkL0CBv/Vestido-2025011.jpg",
   Descripcion: "Talla L-M-S",
   Codigo: "Codves11",
   Cantidad: 1,
@@ -140,7 +140,7 @@ shotsarray[10] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025012.jpg",
+  imagen: "https://i.postimg.cc/FKNbt3Mq/Vestido-2025012.jpg",
   Descripcion: "Talla M-L",
   Codigo: "Codves12",
   Cantidad: 1,
@@ -152,7 +152,7 @@ shotsarray[11] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025013.jpg",
+  imagen: "https://i.postimg.cc/25rdpnpp/Vestido-2025013.jpg",
   Descripcion: "Talla S",
   Codigo: "Codves13",
   Cantidad: 1,
@@ -164,7 +164,7 @@ shotsarray[12] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025014.jpg",
+  imagen: "https://i.postimg.cc/kgF8yD22/Vestido-2025014.jpg",
   Descripcion: "Talla XL",
   Codigo: "Codves14",
   Cantidad: 1,
@@ -175,7 +175,7 @@ shotsarray[13] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025015.jpg",
+  imagen: "https://i.postimg.cc/2SFvx31Z/Vestido-2025015.jpg",
   Descripcion: "Talla XL-M",
   Codigo: "Codves15",
   Cantidad: 1,
@@ -186,7 +186,7 @@ shotsarray[14] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025016.jpg",
+  imagen: "https://i.postimg.cc/8zVMWLzS/Vestido-2025016.jpg",
   Descripcion: "Talla L-M",
   Codigo: "Codves16",
   Cantidad: 1,
@@ -197,7 +197,7 @@ shotsarray[15] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025017.jpg",
+  imagen: "https://i.postimg.cc/nhY71MX2/Vestido-2025017.jpg",
   Descripcion: "Talla M",
   Codigo: "Codves17",
   Cantidad: 1,
@@ -208,7 +208,7 @@ shotsarray[16] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025018.jpg",
+  imagen: "https://i.postimg.cc/R0Stp9tQ/Vestido-2025018.jpg",
   Descripcion: "Talla L-S",
   Codigo: "Codves18",
   Cantidad: 1,
@@ -219,7 +219,7 @@ shotsarray[17] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025019.jpg",
+  imagen: "https://i.postimg.cc/bvynV8ng/Vestido-2025019.jpg",
   Descripcion: "Talla XL-M",
   Codigo: "Codves19",
   Cantidad: 1,
@@ -230,7 +230,7 @@ shotsarray[18] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025020.jpg",
+  imagen: "https://i.postimg.cc/nLFmSZm5/Vestido-2025020.jpg",
   Descripcion: "Talla S-M-XL",
   Codigo: "Codves20",
   Cantidad: 1,
@@ -242,7 +242,7 @@ shotsarray[19] = objproducto;
 
 objproducto = {
   nombre: "Vestidos",
-  imagen: "https://d.imgvision.net/st0gvp/Vestido_2025021.jpg",
+  imagen: "https://i.postimg.cc/q7JKD0nV/Vestido-2025021.jpg",
   Descripcion: "Talla S-M-XL",
   Codigo: "Codves21",
   Cantidad: 1,
@@ -252,7 +252,7 @@ shotsarray[20] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025001.jpg",
+  imagen: "https://i.postimg.cc/59gy30WZ/Blusa-2025001.jpg",
   Descripcion: "Talla S-M",
   Codigo: "Codblu01",
   Cantidad: 1,
@@ -262,7 +262,7 @@ shotsarray[21] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025002.jpg",
+  imagen: "https://i.postimg.cc/NGDF4Mvn/Blusa-2025002.jpg",
   Descripcion: "Talla L-XL",
   Codigo: "Codblu02",
   Cantidad: 1,
@@ -272,7 +272,7 @@ shotsarray[22] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025003.jpg",
+  imagen: "https://i.postimg.cc/tRkJ5TGm/Blusa-2025003.jpg",
   Descripcion: "Talla M-S",
   Codigo: "Codblu03",
   Cantidad: 1,
@@ -283,7 +283,7 @@ shotsarray[23] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025004.jpg",
+  imagen: "https://i.postimg.cc/KcfjNzh9/Blusa-2025004.jpg",
   Descripcion: "Talla M-XL",
   Codigo: "Codblu04",
   Cantidad: 1,
@@ -294,7 +294,7 @@ shotsarray[24] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025005.jpg",
+  imagen: "https://i.postimg.cc/3R7rjMS0/Blusa-2025005.jpg",
   Descripcion: "Talla M-XL",
   Codigo: "Codblu05",
   Cantidad: 1,
@@ -306,7 +306,7 @@ shotsarray[25] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025006.jpg",
+  imagen: "https://i.postimg.cc/5NkthR0q/Blusa-2025006.jpg",
   Descripcion: "Talla M-S",
   Codigo: "Codblu06",
   Cantidad: 1,
@@ -317,7 +317,7 @@ shotsarray[26] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025007.jpg",
+  imagen: "https://i.postimg.cc/1tPR0xC4/Blusa-2025007.jpg",
   Descripcion: "Talla S",
   Codigo: "Codblu07",
   Cantidad: 1,
@@ -328,7 +328,7 @@ shotsarray[27] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025008.jpg",
+  imagen: "https://i.postimg.cc/V61s9yGQ/Blusa-2025008.jpg",
   Descripcion: "Talla XL",
   Codigo: "Codblu08",
   Cantidad: 1,
@@ -349,7 +349,7 @@ shotsarray[29] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025010.jpg",
+  imagen: "https://i.postimg.cc/DZFfQVjs/Blusa-2025010.jpg",
   Descripcion: "Talla S",
   Codigo: "Codblu10",
   Cantidad: 1,
@@ -359,7 +359,7 @@ shotsarray[30] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025011.jpg",
+  imagen: "https://i.postimg.cc/630WYHgY/Blusa-2025011.jpg",
   Descripcion: "Talla M",
   Codigo: "Codblu11",
   Cantidad: 1,
@@ -380,7 +380,7 @@ shotsarray[32] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025013.jpg",
+  imagen: "https://i.postimg.cc/MTD6dsNt/Blusa-2025013.jpg",
   Descripcion: "Talla L-XL",
   Codigo: "Codblu13",
   Cantidad: 1,
@@ -391,7 +391,7 @@ shotsarray[33] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025014.jpg",
+  imagen: "https://i.postimg.cc/Hx2YBSR2/Blusa-2025014.jpg",
   Descripcion: "Talla Unitalla",
   Codigo: "Codblu14",
   Cantidad: 1,
@@ -402,7 +402,7 @@ shotsarray[34] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025015.jpg",
+  imagen: "https://i.postimg.cc/XJ8jQ2mP/Blusa-2025015.jpg",
   Descripcion: "Talla M-S",
   Codigo: "Codblu15",
   Cantidad: 1,
@@ -413,7 +413,7 @@ shotsarray[35] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025016.jpg",
+  imagen: "https://i.postimg.cc/wvVq0WZG/Blusa-2025016.jpg",
   Descripcion: "Talla M-S",
   Codigo: "Codblu16",
   Cantidad: 1,
@@ -424,7 +424,7 @@ shotsarray[36] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025017.jpg",
+  imagen: "https://i.postimg.cc/C1NhmvX6/Blusa-2025017.jpg",
   Descripcion: "Talla XL-M",
   Codigo: "Codblu17",
   Cantidad: 1,
@@ -435,7 +435,7 @@ shotsarray[37] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025018.jpg",
+  imagen: "https://i.postimg.cc/LXT9NywG/Blusa-2025018.jpg",
   Descripcion: "Talla S-M Color:Negra-Blanca",
   Codigo: "Codblu18",
   Cantidad: 1,
@@ -446,7 +446,7 @@ shotsarray[38] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025019.jpg",
+  imagen: "https://i.postimg.cc/Kj8ZVPhq/Blusa-2025019.jpg",
   Descripcion: "Talla M",
   Codigo: "Codblu19",
   Cantidad: 1,
@@ -456,7 +456,7 @@ shotsarray[39] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025020.jpg",
+  imagen: "https://i.postimg.cc/4yxJM6RS/Blusa-2025020.jpg",
   Descripcion: "Talla M",
   Codigo: "Codblu20",
   Cantidad: 1,
@@ -467,7 +467,7 @@ shotsarray[40] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025021.jpg",
+  imagen: "https://i.postimg.cc/cCLsjRGj/Blusa-2025021.jpg",
   Descripcion: "Talla M-S-L-XL",
   Codigo: "Codblu21",
   Cantidad: 1,
@@ -478,7 +478,7 @@ shotsarray[41] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025022.jpg",
+  imagen: "https://i.postimg.cc/d3VqX2cb/Blusa-2025022.jpg",
   Descripcion: "Talla M",
   Codigo: "Codblu22",
   Cantidad: 1,
@@ -488,7 +488,7 @@ shotsarray[42] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025023.jpg",
+  imagen: "https://i.postimg.cc/qqvkYsdd/Blusa-2025023.jpg",
   Descripcion: "Talla L",
   Codigo: "Codblu23",
   Cantidad: 1,
@@ -498,7 +498,7 @@ shotsarray[43] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025024.jpg",
+  imagen: "https://i.postimg.cc/brwzMxjP/Blusa-2025024.jpg",
   Descripcion: "Talla L-M-S ",
   Codigo: "Codblu24",
   Cantidad: 1,
@@ -509,7 +509,7 @@ shotsarray[44] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025025.jpg",
+  imagen: "https://i.postimg.cc/1X39TGZx/Blusa-2025025.jpg",
   Descripcion: "Talla S",
   Codigo: "Codblu25",
   Cantidad: 1,
@@ -519,7 +519,7 @@ shotsarray[45] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025026.jpg",
+  imagen: "https://i.postimg.cc/RhZM87zS/Blusa-2025026.jpg",
   Descripcion: "Talla S",
   Codigo: "Codblu26",
   Cantidad: 1,
@@ -531,7 +531,7 @@ shotsarray[46] = objproducto;
 
 objproducto = {
   nombre: "Pantalones",
-  imagen: "https://d.imgvision.net/st0gvp/PantalonM_2025001.jpg",
+  imagen: "https://i.postimg.cc/sXM011zL/Pantalon-M-2025001.jpg",
   Descripcion: "Talla M",
   Codigo: "Codpamu01",
   Cantidad: 1,
@@ -542,7 +542,7 @@ shotsarray[47] = objproducto;
 
 objproducto = {
   nombre: "Pantalones",
-  imagen: "https://d.imgvision.net/st0gvp/PantalonM_2025002.jpg",
+  imagen: "https://i.postimg.cc/LXJ0hhR5/Pantalon-M-2025002.jpg",
   Descripcion: "Talla 7/8",
   Codigo: "Codpamu02",
   Cantidad: 1,
@@ -553,7 +553,7 @@ shotsarray[48] = objproducto;
 
 objproducto = {
   nombre: "Pantalones",
-  imagen: "https://d.imgvision.net/st0gvp/PantalonM_2025003.jpg",
+  imagen: "https://i.postimg.cc/NMKPLLYj/Pantalon-M-2025003.jpg",
   Descripcion: "Talla 13/14",
   Codigo: "Codpamu03",
   Cantidad: 1,
@@ -564,7 +564,7 @@ shotsarray[49] = objproducto;
 
 objproducto = {
   nombre: "Pantalones",
-  imagen: "https://d.imgvision.net/st0gvp/PantalonM_2025004.jpg",
+  imagen: "https://i.postimg.cc/wv1b33HB/Pantalon-M-2025004.jpg",
   Descripcion: "Talla 5/6",
   Codigo: "Codpamu04",
   Cantidad: 1,
@@ -576,7 +576,7 @@ shotsarray[50] = objproducto;
 
 objproducto = {
   nombre: "Pantalones",
-  imagen: "https://d.imgvision.net/st0gvp/PantalonM_2025005.jpg",
+  imagen: "https://i.postimg.cc/63FbZw5t/Pantalon-M-2025005.jpg",
   Descripcion: "Talla 3/4",
   Codigo: "Codpamu05",
   Cantidad: 1,
@@ -587,7 +587,7 @@ shotsarray[51] = objproducto;
 
 objproducto = {
   nombre: "Pantalones",
-  imagen: "https://d.imgvision.net/st0gvp/PantalonM_2025006.jpg",
+  imagen: "https://i.postimg.cc/MTg3BxKc/Pantalon-M-2025006.jpg",
   Descripcion: "Talla L",
   Codigo: "Codpamu06",
   Cantidad: 1,
@@ -599,7 +599,7 @@ shotsarray[52] = objproducto;
 
 objproducto = {
   nombre: "Pantalones",
-  imagen: "https://d.imgvision.net/st0gvp/PantalonM_2025007.jpg",
+  imagen: "https://i.postimg.cc/wMJfcP7N/Pantalon-M-2025007.jpg",
   Descripcion: "Talla 3/4-15/16-5/6",
   Codigo: "Codpamu07",
   Cantidad: 1,
@@ -610,7 +610,7 @@ shotsarray[53] = objproducto;
 
 objproducto = {
   nombre: "Pantalones",
-  imagen: "https://d.imgvision.net/st0gvp/PantalonM_2025008.jpg",
+  imagen: "https://i.postimg.cc/6qRjLSyL/Pantalon-M-2025008.jpg",
   Descripcion: "Talla 5/6",
   Codigo: "Codpamu08",
   Cantidad: 1,
@@ -621,7 +621,7 @@ shotsarray[54] = objproducto;
 
 objproducto = {
   nombre: "Pantalones",
-  imagen: "https://d.imgvision.net/st0gvp/PantalonM_2025009.jpg",
+  imagen: "https://i.postimg.cc/KjLqrVR9/Pantalon-M-2025009.jpg",
   Descripcion: "Talla 5/6",
   Codigo: "Codpamu09",
   Cantidad: 1,
@@ -643,7 +643,7 @@ shotsarray[56] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025002.jpg",
+  imagen: "https://i.postimg.cc/L8Bk8KbC/Entyerizo-2025002.jpg",
   Descripcion: "Talla XL-M",
   Codigo: "Codentermu02",
   Cantidad: 1,
@@ -654,7 +654,7 @@ shotsarray[57] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025003.jpg",
+  imagen: "https://i.postimg.cc/13c03hjK/Entyerizo-2025003.jpg",
   Descripcion: "Talla L",
   Codigo: "Codentermu03",
   Cantidad: 1,
@@ -665,7 +665,7 @@ shotsarray[58] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025004.jpg",
+  imagen: "https://i.postimg.cc/wjc5j8GF/Entyerizo-2025004.jpg",
   Descripcion: "Talla L-M",
   Codigo: "Codentermu04",
   Cantidad: 1,
@@ -676,7 +676,7 @@ shotsarray[59] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025005.jpg",
+  imagen: "https://i.postimg.cc/FHgbH5BB/Entyerizo-2025005.jpg",
   Descripcion: "Talla ",
   Codigo: "Codentermu05",
   Cantidad: 1,
@@ -687,7 +687,7 @@ shotsarray[60] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025006.jpg",
+  imagen: "https://i.postimg.cc/52q52dRT/Entyerizo-2025006.jpg",
   Descripcion: "Talla ",
   Codigo: "Codentermu06",
   Cantidad: 1,
@@ -698,7 +698,7 @@ shotsarray[61] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025007.jpg",
+  imagen: "https://i.postimg.cc/Ls9tqCcD/Entyerizo-2025007.jpg",
   Descripcion: "Talla L",
   Codigo: "Codentermu07",
   Cantidad: 1,
@@ -710,7 +710,7 @@ shotsarray[62] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025008.jpg",
+  imagen: "https://i.postimg.cc/6QWr7jkH/Entyerizo-2025008.jpg",
   Descripcion: "Talla XL",
   Codigo: "Codentermu08",
   Cantidad: 1,
@@ -722,7 +722,7 @@ shotsarray[63] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025009.jpg",
+  imagen: "https://i.postimg.cc/hGDLJykN/Entyerizo-2025009.jpg",
   Descripcion: "Talla S-XL-L",
   Codigo: "Codentermu09",
   Cantidad: 1,
@@ -733,7 +733,7 @@ shotsarray[64] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025010.jpg",
+  imagen: "https://i.postimg.cc/W4NGDYRc/Entyerizo-2025010.jpg",
   Descripcion: "Talla XL-M",
   Codigo: "Codentermu10",
   Cantidad: 1,
@@ -744,7 +744,7 @@ shotsarray[65] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025011.jpg",
+  imagen: "https://i.postimg.cc/cJxRKkqy/Entyerizo-2025011.jpg",
   Descripcion: "Talla M-XL",
   Codigo: "Codentermu11",
   Cantidad: 1,
@@ -755,7 +755,7 @@ shotsarray[66] = objproducto;
 
 objproducto = {
   nombre: "Conjuntos",
-  imagen: "https://d.imgvision.net/st0gvp/Conjun_2025001.jpg",
+  imagen: "https://i.postimg.cc/cHS9CBx1/Conjun-2025001.jpg",
   Descripcion: "Talla 10-12-16",
   Codigo: "Codconjmu01",
   Cantidad: 1,
@@ -766,7 +766,7 @@ shotsarray[67] = objproducto;
 
 objproducto = {
   nombre: "Conjuntos",
-  imagen: "https://d.imgvision.net/st0gvp/Conjun_2025002.jpg",
+  imagen: "https://i.postimg.cc/1trWqVX0/Conjun-2025002.jpg",
   Descripcion: "Talla M",
   Codigo: "Codconjmu02",
   Cantidad: 1,
@@ -777,7 +777,7 @@ shotsarray[68] = objproducto;
 
 objproducto = {
   nombre: "Conjuntos",
-  imagen: "https://d.imgvision.net/st0gvp/Conjun_2025003.jpg",
+  imagen: "https://i.postimg.cc/63fHv4q5/Conjun-2025003.jpg",
   Descripcion: "Talla S",
   Codigo: "Codconjmu03",
   Cantidad: 1,
@@ -788,7 +788,7 @@ shotsarray[69] = objproducto;
 
 objproducto = {
   nombre: "Conjuntos",
-  imagen: "https://d.imgvision.net/st0gvp/Conjun_2025004.jpg",
+  imagen: "https://i.postimg.cc/XqNscNBw/Conjun-2025004.jpg",
   Descripcion: "Talla S",
   Codigo: "Codconjmu04",
   Cantidad: 1,
@@ -798,7 +798,7 @@ shotsarray[70] = objproducto;
 
 objproducto = {
   nombre: "Conjuntos",
-  imagen: "https://d.imgvision.net/st0gvp/Conjun_2025005.jpg",
+  imagen: "https://i.postimg.cc/3NrtCr0X/Conjun-2025005.jpg",
   Descripcion: "Talla S",
   Codigo: "Codconjmu05",
   Cantidad: 1,
@@ -808,7 +808,7 @@ shotsarray[71] = objproducto;
 
 objproducto = {
   nombre: "Conjuntos",
-  imagen: "https://d.imgvision.net/st0gvp/Conjun_2025006.jpg",
+  imagen: "https://i.postimg.cc/Gt3XJ3TP/Conjun-2025006.jpg",
   Descripcion: "Talla S-L",
   Codigo: "Codconjmu06",
   Cantidad: 1,
@@ -830,7 +830,7 @@ shotsarray[73] = objproducto;
 
 objproducto = {
   nombre: "Faldas",
-  imagen: "https://d.imgvision.net/st0gvp/Falda_2025002.jpg",
+  imagen: "https://i.postimg.cc/6pLhWj6f/Falda-2025002.jpg",
   Descripcion: "Talla M-L-XL",
   Codigo: "Codcfald02",
   Cantidad: 1,
@@ -841,7 +841,7 @@ shotsarray[74] = objproducto;
 
 objproducto = {
   nombre: "Faldas",
-  imagen: "https://d.imgvision.net/st0gvp/Falda_2025003.jpg",
+  imagen: "https://i.postimg.cc/JzcQr676/Falda-2025003.jpg",
   Descripcion: "Talla S-M-L",
   Codigo: "Codcfald03",
   Cantidad: 1,
@@ -861,7 +861,7 @@ shotsarray[76] = objproducto;
 
 objproducto = {
   nombre: "BodySuit",
-  imagen: "https://d.imgvision.net/st0gvp/BodySuit_2025002.jpg",
+  imagen: "https://i.postimg.cc/8PTYh6FX/Body-Suit-2025002.jpg",
   Descripcion: "Talla M",
   Codigo: "Codbody02",
   Cantidad: 1,
@@ -871,7 +871,7 @@ shotsarray[77] = objproducto;
 
 objproducto = {
   nombre: "BodySuit",
-  imagen: "https://d.imgvision.net/st0gvp/BodySuit_2025003.jpg",
+  imagen: "https://i.postimg.cc/8Pw0wzWb/Body-Suit-2025003.jpg",
   Descripcion: "Talla L-S",
   Codigo: "Codbody03",
   Cantidad: 1,
@@ -881,7 +881,7 @@ shotsarray[78] = objproducto;
 
 objproducto = {
   nombre: "CropTop",
-  imagen: "https://d.imgvision.net/st0gvp/Croptop_2025001.jpg",
+  imagen: "https://i.postimg.cc/Qd2wKnc8/Croptop-2025001.jpg",
   Descripcion: "Talla Unitalla",
   Codigo: "Codcropt01",
   Cantidad: 1,
@@ -892,7 +892,7 @@ shotsarray[79] = objproducto;
 
 objproducto = {
   nombre: "CropTop",
-  imagen: "https://d.imgvision.net/st0gvp/Croptop_2025002.jpg",
+  imagen: "https://i.postimg.cc/GmWVTSGZ/Croptop-2025002.jpg",
   Descripcion: "Talla L-S-M",
   Codigo: "Codcropt02",
   Cantidad: 1,
@@ -902,7 +902,7 @@ shotsarray[80] = objproducto;
 
 objproducto = {
   nombre: "CropTop",
-  imagen: "https://d.imgvision.net/st0gvp/Croptop_2025003.jpg",
+  imagen: "https://i.postimg.cc/HkqR8PbW/Croptop-2025003.jpg",
   Descripcion: "Talla M-S",
   Codigo: "Codcropt03",
   Cantidad: 1,
@@ -912,7 +912,7 @@ shotsarray[81] = objproducto;
 
 objproducto = {
   nombre: "CropTop",
-  imagen: "https://d.imgvision.net/st0gvp/Croptop_2025004.jpg",
+  imagen: "https://i.postimg.cc/SQPBpsjG/Croptop-2025004.jpg",
   Descripcion: "Talla L-M",
   Codigo: "Codcropt04",
   Cantidad: 1,
@@ -923,7 +923,7 @@ shotsarray[82] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "https://d.imgvision.net/st0gvp/Zapato_2025001.jpg",
+  imagen: "https://i.postimg.cc/LsvzDLdN/Zapato-2025001.jpg",
   Descripcion: "Talla ",
   Codigo: "CodZapato01",
   Cantidad: 1,
@@ -934,7 +934,7 @@ shotsarray[83] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "https://d.imgvision.net/st0gvp/Zapato_2025002.jpg",
+  imagen: "https://i.postimg.cc/9f1GbZ3Z/Zapato-2025002.jpg",
   Descripcion: "Talla ",
   Codigo: "CodZapato02",
   Cantidad: 1,
@@ -944,7 +944,7 @@ shotsarray[84] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "https://d.imgvision.net/st0gvp/Zapato_2025003.jpg",
+  imagen: "https://i.postimg.cc/VN4jgnyX/Zapato-2025003.jpg",
   Descripcion: "Talla ",
   Codigo: "CodZapato03",
   Cantidad: 1,
@@ -955,7 +955,7 @@ shotsarray[85] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "https://d.imgvision.net/st0gvp/Zapato_2025004.jpg",
+  imagen: "https://i.postimg.cc/1zMpBwxV/Zapato-2025004.jpg",
   Descripcion: "Talla ",
   Codigo: "CodZapato04",
   Cantidad: 1,
@@ -966,7 +966,7 @@ shotsarray[86] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "https://d.imgvision.net/st0gvp/Zapato_2025005.jpg",
+  imagen: "https://i.postimg.cc/PxR1sH5f/Zapato-2025005.jpg",
   Descripcion: "Talla ",
   Codigo: "CodZapato05",
   Cantidad: 1,
@@ -978,7 +978,7 @@ shotsarray[87] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
-  imagen: "https://d.imgvision.net/st0gvp/Zapato_2025006.jpg",
+  imagen: "https://i.postimg.cc/4yHVX0YF/Zapato-2025006.jpg",
   Descripcion: "Talla ",
   Codigo: "CodZapato06",
   Cantidad: 1,
@@ -1000,7 +1000,7 @@ shotsarray[89] = objproducto;
 
 objproducto = {
   nombre: "Palazos",
-  imagen: "https://d.imgvision.net/st0gvp/Palazo_2025001.jpg",
+  imagen: "https://i.postimg.cc/qM6JJTjv/Palazo-2025001.jpg",
   Descripcion: "Talla L-XL",
   Codigo: "CodPalazo01",
   Cantidad: 1,
@@ -1010,7 +1010,7 @@ shotsarray[90] = objproducto;
 
 objproducto = {
   nombre: "Shorts",
-  imagen: "https://d.imgvision.net/st0gvp/Short_2025001.jpg",
+  imagen: "https://i.postimg.cc/FRGyHcFk/Short-2025001.jpg",
   Descripcion: "Talla L",
   Codigo: "CodShort01",
   Cantidad: 1,
