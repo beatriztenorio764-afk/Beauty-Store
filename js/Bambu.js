@@ -16,7 +16,7 @@ const cantiingxarray=5;
 
 objproducto = {
   nombre: "Gallopinto",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/GalloPinto.png",
+  imagen: "https://i.postimg.cc/FFZvLRxT/Gallo-Pinto.png",
   Descripcion: "Gallopinto",
   Codigo: "Codves01",
   Cantidad: 1,
@@ -26,7 +26,7 @@ shotsarray[0] = objproducto; //Arreglo imagenes
 
 objproducto = {
   nombre: "CafeNegro",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/Cafeconleche.png",
+  imagen: "https://i.postimg.cc/1XJZhCty/Cafeconleche.png",
   Descripcion: "Cafe con Leche",
   Codigo: "Codves02",
   Cantidad: 4,
@@ -36,7 +36,7 @@ shotsarray[1] = objproducto;
 
 objproducto = {
   nombre: "CafeNegro",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/Cafefin.jpg.png",
+  imagen: "https://i.postimg.cc/C5mVTPKm/Cafefin-jpg.png",
   Descripcion: "Cafe Negro ",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -47,7 +47,7 @@ shotsarray[2] = objproducto;
 
 objproducto = {
   nombre: "Huevo",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/HuevoFrito.png",
+  imagen: "https://i.postimg.cc/sxwRd620/Huevo-Frito.png",
   Descripcion: "Huevo frito ",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -58,7 +58,7 @@ shotsarray[3] = objproducto;
 
 objproducto = {
   nombre: "Huevo",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/Huevojamon.png",
+  imagen: "https://i.postimg.cc/8kHG65bY/Huevojamon.png",
   Descripcion: "Huevo revuelto con Jamon",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -68,7 +68,7 @@ shotsarray[4] = objproducto;
 
 objproducto = {
   nombre: "Huevo",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/HuevoRanchero.png",
+  imagen: "https://i.postimg.cc/gcDpZJK5/Huevo-Ranchero.jpg",
   Descripcion: "Huevo Ranchero",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -78,7 +78,7 @@ shotsarray[5] = objproducto;
 
 objproducto = {
   nombre: "Huevo",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/HuevoRevuelto.png",
+  imagen: "https://i.postimg.cc/dtVYmYHv/Huevo-Revuelto.png",
   Descripcion: "Huevo Revuelto",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -89,7 +89,7 @@ shotsarray[6] = objproducto;
 
 objproducto = {
   nombre: "Bastimentos",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/TortillaEdit.png",
+  imagen: "https://i.postimg.cc/MK389FNB/Tortilla-Edit.png",
   Descripcion: "Tortillas",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -100,7 +100,7 @@ shotsarray[7] = objproducto;
 
 objproducto = {
   nombre: "Bastimentos",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/PatanoMaduro.png",
+  imagen: "https://i.postimg.cc/vH2d0Nk4/Patano-Maduro.png",
   Descripcion: "Platano Maduro",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -110,7 +110,7 @@ shotsarray[8] = objproducto;
 
 objproducto = {
   nombre: "Crema",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Desayuno/Natilla.png",
+  imagen: "https://i.postimg.cc/DywTdTjm/Natilla.png",
   Descripcion: "Crema",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -122,7 +122,7 @@ shotsarray[9] = objproducto;
 
 objproducto = {
   nombre: "AlmuerzoBasico",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Almuerzo/PlatilloBasic.png",
+  imagen: "https://i.postimg.cc/SsPWTq6B/Platillo-Basic.png",
   Descripcion: "Platillo Basico",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -133,7 +133,7 @@ shotsarray[10] = objproducto;
 
 objproducto = {
   nombre: "Carnes",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Almuerzo/FiletRes.png",
+  imagen: "https://i.postimg.cc/RFYcs97s/FiletRes.png",
   Descripcion: "Filet de res ",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -143,7 +143,7 @@ shotsarray[11] = objproducto;
 
 objproducto = {
   nombre: "Carnes",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Almuerzo/FiletResJalapeño.png",
+  imagen: "https://i.postimg.cc/ZRQr7Z8M/Filet-Res-Jalape-o.png",
   Descripcion: "Filet de res Jalapeño",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -153,7 +153,7 @@ shotsarray[12] = objproducto;
 
 objproducto = {
   nombre: "Carnes",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Almuerzo/FiletRes.png",
+  imagen: "https://i.postimg.cc/RFYcs97s/FiletRes.png",
   Descripcion: "Filet de res Jalapeño",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -165,7 +165,7 @@ shotsarray[13] = objproducto;
 
 objproducto = {
   nombre: "Pollo",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Almuerzo/PolloPlancha.png",
+  imagen: "https://i.postimg.cc/gJ7vSdyW/Pollo-Plancha.png",
   Descripcion: "Pollo a la plancha",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -176,7 +176,7 @@ shotsarray[14] = objproducto;
 
 objproducto = {
   nombre: "Pollo",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Almuerzo/FiletPolloEmpanizado.png",
+  imagen: "https://i.postimg.cc/MTLyPx73/Filet-Pollo-Empanizado.png",
   Descripcion: "Filet de Pollo Empanizado",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -187,7 +187,7 @@ shotsarray[15] = objproducto;
 
 objproducto = {
   nombre: "Pollo",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Almuerzo/Pollojalapeño.png",
+  imagen: "https://i.postimg.cc/zBQnt5wZ/Pollojalape-o.png",
   Descripcion: "Pollo Jalapeño",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -198,7 +198,7 @@ shotsarray[16] = objproducto;
 
 objproducto = {
   nombre: "Antojos",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Antojitos/EnchiladaNicara.png",
+  imagen: "https://i.postimg.cc/CKBDR9TH/Enchilada-Nicara.png",
   Descripcion: "Enchiladas",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -209,7 +209,7 @@ shotsarray[17] = objproducto;
 
 objproducto = {
   nombre: "Antojos",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Antojitos/Repochetas.JPG.png",
+  imagen: "https://i.postimg.cc/6QkZnzBx/Repochetas-JPG.png",
   Descripcion: "Repochetas",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -221,7 +221,7 @@ shotsarray[18] = objproducto;
 
 objproducto = {
   nombre: "Antojos",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Antojitos/Taco.png",
+  imagen: "https://i.postimg.cc/5thzLpfV/Taco.png",
   Descripcion: "Taco de Res",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -235,7 +235,7 @@ shotsarray[19] = objproducto;
 
 objproducto = {
   nombre: "Helados",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Antojitos/HeladosRonConpasas.png",
+  imagen: "https://i.postimg.cc/k5682LPP/Helados-Ron-Conpasas.png",
   Descripcion: "Helado Ron Con Pasas",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -246,7 +246,7 @@ shotsarray[20] = objproducto;
 
 objproducto = {
   nombre: "Helados",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Antojitos/HeladosPiñaLeche.png",
+  imagen: "https://i.postimg.cc/BvLDjR9k/Helados-Pi-a-Leche.png",
   Descripcion: "Helado Piña Con Leche",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -256,7 +256,7 @@ shotsarray[21] = objproducto;
 
 objproducto = {
   nombre: "Helados",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Antojitos/HeladoCocoa.png",
+  imagen: "https://i.postimg.cc/s2QSMbdw/Helado-Cocoa.png",
   Descripcion: "Helado Cocoa",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -268,7 +268,7 @@ shotsarray[22] = objproducto;
 
 objproducto = {
   nombre: "Fresco",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Antojitos/FresoMelon.png",
+  imagen: "https://i.postimg.cc/wjbLTgPV/Freso-Melon.png",
   Descripcion: "Fresco Melon",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -278,7 +278,7 @@ shotsarray[23] = objproducto;
 
 objproducto = {
   nombre: "Fresco",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Antojitos/FrescoCalala.png",
+  imagen: "https://i.postimg.cc/6Q2R8FJd/Fresco-Calala.png",
   Descripcion: "Fresco de Calala",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -288,7 +288,7 @@ shotsarray[24] = objproducto;
 
 objproducto = {
   nombre: "Fresco",
-  imagen: "https://beatriztenorio764-afk.github.io/Beauty-Store/images/Comidas/Antojitos/FrescoPitaya.png",
+  imagen: "https://i.postimg.cc/5tYvXDdS/Fresco-Pitaya.png",
   Descripcion: "Fresco de Pitaya",
   Codigo: "Codves03",
   Cantidad: 1,
