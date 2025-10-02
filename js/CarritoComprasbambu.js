@@ -22,11 +22,11 @@ let SubTotal=0;
    
     SubTotal=parseInt(shotsarray[i].Precio)*parseInt(shotsarray[i].Cantidad);
    
-      msg=`[  Codigo: ${shotsarray[i].Codigo}, Producto: ${shotsarray[i].Descripcion}, Precio Unidad: C\$${shotsarray[i].Precio}, Cantidad ${shotsarray[i].Cantidad}, SubTotal: C\$${SubTotal} ]`+" - Link: "+mlink+" - "+msg;
+      msg=`[ Precio Unidad: C\$${shotsarray[i].Precio}, Cantidad ${shotsarray[i].Cantidad}, SubTotal: C\$${SubTotal} ]`+" - Link: "+mlink+" - "+msg;
        sumtotal=SubTotal+sumtotal;
 
   }
-  msg=" Bella Store Pedido de Moda "+msg+" [ Total: C$"+sumtotal+" ]";
+  msg="El Bambu "+msg+" [ Total: C$"+sumtotal+" ]";
  
     return msg;
 }
