@@ -153,7 +153,7 @@ shotsarray[12] = objproducto;
 
 objproducto = {
   nombre: "Carnes",
-  imagen: "/images/Comidas/Almuerzo/FiletRes.png",
+  imagen: "images/Comidas/Almuerzo/FiletRes.png",
   Descripcion: "Filet de res Jalapeño",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -165,7 +165,7 @@ shotsarray[12] = objproducto;
 
 objproducto = {
   nombre: "Pollo",
-  imagen: "/images/Comidas/Almuerzo/Pollo a la Plancha.png",
+  imagen: "images/Comidas/Almuerzo/Pollo a la Plancha.png",
   Descripcion: "Pollo a la plancha",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -176,7 +176,7 @@ shotsarray[13] = objproducto;
 
 objproducto = {
   nombre: "Pollo",
-  imagen: "/images/Comidas/Almuerzo/Filet de Pollo Empanizado.png",
+  imagen: "images/Comidas/Almuerzo/Filet de Pollo Empanizado.png",
   Descripcion: "Filet de Pollo Empanizado",
   Codigo: "Codves03",
   Cantidad: 1,
