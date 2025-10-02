@@ -338,7 +338,7 @@ shotsarray[28] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
-  imagen: "https://d.imgvision.net/st0gvp/Blusa_2025009.jpg",
+  imagen: "https://i.postimg.cc/63w6Vsj3/Blusa-2025009.jpg",
   Descripcion: "Talla M",
   Codigo: "Codblu09",
   Cantidad: 1,
@@ -1219,7 +1219,7 @@ function crealistimg(contenedor, arrimg, classtarget, principalcontenedor) {
       contenedor.appendChild(newli);
     }
 
-    //Btprevio(contenedor, classtarget, principalcontenedor);
+    Btprevio(contenedor, classtarget, principalcontenedor);
     Btnext(contenedor, classtarget, principalcontenedor);
   }
 }

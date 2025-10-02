@@ -1,0 +1,624 @@
+
+  .body {
+    font-size:  80%; /* Aumentar tamaño de fuente en pantallas más grandes */
+    margin: 0px;
+    
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+
+  }
+
+
+.bodycarri {
+  font-size:  80%; 
+  margin: 0px;
+  width: 100vw;
+
+  }
+
+
+
+input[type=number] {
+  /*for absolutely positioning spinners*/
+  position: static;
+  padding: 5px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+
+  width: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btnlist {
+  list-style-type: none;
+  display: inline-flex;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+
+.btnlist li:first-child .boton {
+  border-radius: 5px 0 0 5px;
+  font-size: 100%;
+}
+
+.btnlist li:last-child .boton {
+  border-radius: 0 5px 5px 0;
+  font-size: 100%;
+}
+
+
+.nvarprinblac {
+  font-size: 100%;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.nvarprin nav ul li {
+  font-size: small;
+  padding: 3px;
+  margin-right: 0.5%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+
+
+
+
+.boton {
+  padding: 8px 15px;
+  font-size: 180%;
+  display: block;
+  font-family: Arial;
+  font-weight: bold;
+  
+  text-decoration: none;
+  background: linear-gradient(#f2f2f2, #d8d8d8);
+  border-left: 1px solid #f6f6f6;
+  border-right: 1px solid #e4e4e4;
+  color: #88787a;
+  text-align: center;
+  margin: 0;
+  text-shadow: 0 0 2px rgba(0, 0, 0, .1);
+}
+
+.boton:hover {
+  box-shadow: inset 1px 4px 6px 2px rgba(0, 0, 0, .1);
+  background: #ddd;
+
+}
+
+.btnlist li:first-child .boton {
+  border-radius: 5px 0 0 5px;
+  font-size: 180%;
+}
+
+.btnlist li:last-child .boton {
+  border-radius: 0 5px 5px 0;
+  font-size: 180%;
+}
+
+
+
+
+.btn-add-to-cart {
+  background-color: #4CAF50;
+  /* Color de fondo verde */
+  border: none;
+  color: white;
+  /* Texto blanco */
+  padding: 10px 20px;
+  /* Relleno interno */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* Cambia el cursor a una mano al pasar por encima */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  transition: background-color 0.3s ease;
+  /* AnimaciÃ³n de cambio de color */
+}
+
+
+.btn-add-to-cart:hover {
+  background-color: #45a049;
+  /* Color de fondo mÃ¡s oscuro al pasar el ratÃ³n */
+}
+
+
+
+.inputonumber {
+
+  padding: 2px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  visibility: visible;
+  position: sticky;
+}
+
+
+.btn-carrito {
+  background-color: #007bff;
+  /* Color de fondo azul */
+  color: white;
+  /* Texto blanco */
+  padding: 10px 15px;
+  /* Relleno */
+  border: none;
+  /* Sin borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  /* El cursor cambia a una mano */
+  font-size: 100%;
+  /* TamaÃ±o de la fuente */
+  display: inline-flex;
+  /* Para alinear icono y texto */
+  align-items:center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  /* Centra verticalmente icono y texto */
+ 
+
+}
+
+
+
+
+
+.btn-carrito .fa-shopping-cart {
+  font-size: 20px;
+  /* TamaÃ±o un poco mÃ¡s grande para el icono */
+  width: auto;
+  height: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  
+}
+
+
+.trformacar {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+
+
+.trformacar {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+
+
+.submenu {
+  font-family: Serpentine;
+  text-align: center;
+  font-size: 120%;
+
+
+}
+
+
+
+.lbsubtitulos {
+  font-weight: bold;
+  font-size: 140%;
+  font-family: Serpentine;
+  text-align: center;
+
+}
+
+.hidebtn {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-family: Arial;
+  font-size: 100%;
+}
+
+
+
+@media print {
+
+  .parte01,
+  .btn,
+  .accion,
+  .hidebtn,
+  .btn btn-danger {
+
+    display: none;
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+.cart-trigger {
+  width: 40%;
+  /*min-width: 5%;*/
+  height: 100%;
+
+  position: sticky;
+  /* Permite posicionar elementos dentro, como el contador */
+  background-color: #4CAF50;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto y el icono */
+  padding: 10px 15px;
+  /* Espaciado interno */
+  border: none;
+  /* Sin borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  /* Cambia el cursor a mano al pasar sobre el botÃ³n */
+  font-size: 90%;
+  /* TamaÃ±o de fuente */
+}
+
+.cart-trigger:hover {
+  background-color: #45a049;
+  /* Color de fondo al pasar el ratÃ³n */
+}
+
+
+
+
+
+
+.divconta {
+  display: flex;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  padding: auto;
+  margin-left: 8px;
+  margin-right:40% ;
+
+}
+
+
+
+.inputnumber,
+input[type="number"] {
+  width: 100px;
+  padding: 6px;
+  font-size: 14px;
+}
+
+
+.tabprincipal {
+  /*background-image: url(../images/bg.jpg);*/
+   width: 100vw;
+  max-width: 800px;
+
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 20px;
+  transition: 0.5s;
+
+}
+
+
+.colorcelda {
+
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 15%;
+  margin: 15%;
+  transition: 0.5s;
+  background-image: url(../images/Pordata/Tecnochips.png);
+  /* Opcional: ajustar tamaÃ±o, repeticiÃ³n, etc. */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+
+.imagelogo {
+  width: 100%;
+  height: 100%;
+  min-width: 10%;
+  min-height: 10%;
+
+}
+
+
+
+.caruceltamadiv {
+ width:50%; 
+ height:50%;
+  display: table-cell;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 2%;
+  margin: 2%;
+  transition: 0.5s;
+  justify-content: center;
+  align-items: center;
+
+  /* Opcional: ajustar tamaÃƒÂ±o, repeticiÃƒÂ³n, etc. */
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+
+}
+
+
+.Titulo {
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+
+}
+
+
+.Titulomenu {
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+
+}
+
+.Btcomprar {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+.btnlist {
+  list-style-type: none;
+  display: inline-flex;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+
+
+
+.Whatsapp{
+width: 60%;
+height: 30%;
+align-items:center;
+align-content: center;
+justify-content: center;
+justify-items: center;
+display: flex;
+ font-family: Arial;
+  font-size: 100%;
+
+
+}
+
+  /* Define la animación */
+  @keyframes moverImagen {
+    0% { transform: translateX(0); } /* Posición inicial */
+    50% { transform: translateX(200px); } /* Posición intermedia */
+    100% { transform: translateX(0); } /* Posición final */
+  }
+
+  /* Aplica la animación a la imagen */
+  .imagen-animada {
+    animation-name: moverImagen; /* Nombre de la animación */
+    animation-duration: 5s; /* Duración de la animación (5 segundos) */
+    animation-iteration-count: infinite; /* Repetir infinitamente */
+    animation-timing-function: linear; /* Controla la velocidad de la animación */
+  }
+
+  /* Estilos básicos para la imagen */
+  img {
+    width: 100px; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción */
+  }
+
+
+  .fade-in-image {
+      animation: fadeIn 5s ease-in-out; /* 5s es la duración del efecto */
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+
+
+
+      @keyframes typing {
+          from { width: 0 }
+          to { width: 100% }
+        }
+        .titulo-animado {
+          overflow: hidden; /* Oculta el texto que se sale del cuadro */
+          white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+          animation: typing 3.5s steps(30, end) forwards; /* Aplica la animación */
+        }
+
+       
+       
+
+
+
+        .contenedor-flex {
+  display: flex; /* Activa el modelo de caja flexible */
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  align-items: center; /* Alinea los elementos verticalmente al centro (opcional) */
+}
+
+.imagen-flex {
+  /* Puedes añadir aquí estilos específicos para la imagen */
+  margin-right: 20px; /* Para separar la imagen del texto */
+}
+
+
+.imagelogob {
+ 
+  width: 100%;
+  height: 250px;
+  align-items: right;
+  align-content: right;
+  justify-content: right;
+  justify-items: right;
+  text-align: right;
+
+  
+
+}
+
+.divinputnum {
+  
+  font-size: 100%;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 2px;
+  text-align: right;
+  text-shadow: 2px 2px 4px #aaa;
+  color: #0a0a0a;
+ 
+  
+  display:flex;
+  width: 50px;
+  height: 40px;
+
+}
+
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+
+.imagenpro{
+	width: 300px;
+  height: 300px;
+  object-fit: cover;
+	
+	
+}
+
+.container-items{
+      display: flex;
+	width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+	align-content: flex-start;
+  
+}
