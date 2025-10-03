@@ -819,7 +819,7 @@ shotsarray[72] = objproducto;
 
 objproducto = {
   nombre: "Faldas",
-  imagen: "https://d.imgvision.net/st0gvp/Falda_2025001.jpg",
+  imagen: "https://i.postimg.cc/6pLhWj6f/Falda-2025001.jpg",
   Descripcion: "Talla Unitalla",
   Codigo: "Codcfald01",
   Cantidad: 1,
@@ -830,7 +830,7 @@ shotsarray[73] = objproducto;
 
 objproducto = {
   nombre: "Faldas",
-  imagen: "https://i.postimg.cc/6pLhWj6f/Falda-2025002.jpg",
+  imagen: "https://i.postimg.cc/JzcQr676/Falda-2025002.jpg",
   Descripcion: "Talla M-L-XL",
   Codigo: "Codcfald02",
   Cantidad: 1,
@@ -841,7 +841,7 @@ shotsarray[74] = objproducto;
 
 objproducto = {
   nombre: "Faldas",
-  imagen: "https://i.postimg.cc/JzcQr676/Falda-2025003.jpg",
+  imagen: "https://i.postimg.cc/K8r5Gqc0/Falda-2025003.jpg",
   Descripcion: "Talla S-M-L",
   Codigo: "Codcfald03",
   Cantidad: 1,
@@ -1055,7 +1055,7 @@ function creacarritocomex() {
   newcarritocomex.setAttribute("onclick", "valorbtcompver( );");
 
   newetique.setAttribute("class", "fas fa-shopping-cart");
-  newetique.textContent = "Ver Compra";
+  newetique.textContent = "Ver Pedido";
 
   carritocomex.appendChild(newcarritocomex);
   newcarritocomex.appendChild(newetique);
@@ -1075,6 +1075,7 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
     for (let i = 0; i < arrimg.length; i++) {
       let newDiv = document.createElement("div");
       let newImg = document.createElement("img");
+       let etiqueta=document.createElement("H6");
 
       newDiv.setAttribute("class", "carousel-item");
 
@@ -1084,11 +1085,7 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
       newImg.setAttribute("ondblclick", "Fimgdb('"+arrimg[i].imagen+"');");
 
 
-      newDiv.textContent =
-        "Codigo: " +
-        arrimg[i].Codigo +
-        "," +
-        " Articulo: " +
+      etiqueta.textContent =
         arrimg[i].Descripcion +
         ", Precio: C$" +
         arrimg[i].Precio;
@@ -1097,9 +1094,9 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
       }
 
       contenedor.appendChild(newDiv);
-
+       
       Btcarritoc(idbtcompra, i, newDiv); //Funcion boton compras
-
+     newDiv.appendChild(etiqueta);
       newDiv.appendChild(newImg);
     }
   }
