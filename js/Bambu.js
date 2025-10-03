@@ -198,7 +198,7 @@ shotsarray[16] = objproducto;
 
 objproducto = {
   nombre: "Antojos",
-  imagen: "https://i.postimg.cc/CKBDR9TH/Enchilada-Nicara.png",
+  imagen: "https://i.postimg.cc/FRVqfGJG/Enchilada-Nicaragrande.png",
   Descripcion: "Enchiladas",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -209,7 +209,7 @@ shotsarray[17] = objproducto;
 
 objproducto = {
   nombre: "Antojos",
-  imagen: "https://i.postimg.cc/6QkZnzBx/Repochetas-JPG.png",
+  imagen: "https://i.postimg.cc/zBFMLpRt/Repochetasgrande-JPG.png",
   Descripcion: "Repochetas",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -221,7 +221,7 @@ shotsarray[18] = objproducto;
 
 objproducto = {
   nombre: "Antojos",
-  imagen: "https://i.postimg.cc/5thzLpfV/Taco.png",
+  imagen: "https://i.postimg.cc/d1jX7nTB/Tacogrande.png",
   Descripcion: "Taco de Res",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -235,7 +235,7 @@ shotsarray[19] = objproducto;
 
 objproducto = {
   nombre: "Helados",
-  imagen: "https://i.postimg.cc/k5682LPP/Helados-Ron-Conpasas.png",
+  imagen: "https://i.postimg.cc/2yqKHYtR/Helados-Ron-Conpasasgrande.png",
   Descripcion: "Helado Ron Con Pasas",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -246,7 +246,7 @@ shotsarray[20] = objproducto;
 
 objproducto = {
   nombre: "Helados",
-  imagen: "https://i.postimg.cc/BvLDjR9k/Helados-Pi-a-Leche.png",
+  imagen: "https://i.postimg.cc/fy3rHsP4/Helados-Pi-a-Lechegrande.png",
   Descripcion: "Helado Piña Con Leche",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -256,7 +256,7 @@ shotsarray[21] = objproducto;
 
 objproducto = {
   nombre: "Helados",
-  imagen: "https://i.postimg.cc/s2QSMbdw/Helado-Cocoa.png",
+  imagen: "https://i.postimg.cc/ZRsQFnVH/Helado-Cocoagrande.png",
   Descripcion: "Helado Cocoa",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -268,7 +268,7 @@ shotsarray[22] = objproducto;
 
 objproducto = {
   nombre: "Fresco",
-  imagen: "https://i.postimg.cc/wjbLTgPV/Freso-Melon.png",
+  imagen: "https://i.postimg.cc/Rhv4DXtR/Freso-Melongrande.png",
   Descripcion: "Fresco Melon",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -278,7 +278,7 @@ shotsarray[23] = objproducto;
 
 objproducto = {
   nombre: "Fresco",
-  imagen: "https://i.postimg.cc/6Q2R8FJd/Fresco-Calala.png",
+  imagen: "https://i.postimg.cc/4yXsSBcS/Fresco-Calalagrande.png",
   Descripcion: "Fresco de Calala",
   Codigo: "Codves03",
   Cantidad: 1,
@@ -288,7 +288,7 @@ shotsarray[24] = objproducto;
 
 objproducto = {
   nombre: "Fresco",
-  imagen: "https://i.postimg.cc/5tYvXDdS/Fresco-Pitaya.png",
+  imagen: "https://i.postimg.cc/cLPZSsYJ/Fresco-Pitayagrande.png",
   Descripcion: "Fresco de Pitaya",
   Codigo: "Codves03",
   Cantidad: 1,
