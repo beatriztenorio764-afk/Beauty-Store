@@ -16,105 +16,105 @@ const cantiingxarray=5;
 
 objproducto = {
   nombre: "Gallopinto",
-  imagen: "https://i.postimg.cc/FFZvLRxT/Gallo-Pinto.png",
+  imagen: "https://i.postimg.cc/sfBJvVZK/Gallo-Pintogrande.png",
   Descripcion: "Gallopinto",
   Codigo: "Codves01",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 38,
 };
 shotsarray[0] = objproducto; //Arreglo imagenes
 
 objproducto = {
   nombre: "CafeNegro",
-  imagen: "https://i.postimg.cc/1XJZhCty/Cafeconleche.png",
+  imagen: "https://i.postimg.cc/4yNkQYkF/Cafeconlechegrande.png",
   Descripcion: "Cafe con Leche",
   Codigo: "Codves02",
   Cantidad: 4,
-  Precio: 0,
+  Precio: 32,
 };
 shotsarray[1] = objproducto;
 
 objproducto = {
   nombre: "CafeNegro",
-  imagen: "https://i.postimg.cc/C5mVTPKm/Cafefin-jpg.png",
+  imagen: "https://i.postimg.cc/kgDMdhH6/Cafefindos.png",
   Descripcion: "Cafe Negro ",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 22,
 };
 shotsarray[2] = objproducto;
 
 
 objproducto = {
   nombre: "Huevo",
-  imagen: "https://i.postimg.cc/sxwRd620/Huevo-Frito.png",
+  imagen: "https://i.postimg.cc/Gph5fZSm/Huevo-Fritogrande.png",
   Descripcion: "Huevo frito ",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 15,
 };
 shotsarray[3] = objproducto;
 
 
 objproducto = {
   nombre: "Huevo",
-  imagen: "https://i.postimg.cc/8kHG65bY/Huevojamon.png",
+  imagen: "https://i.postimg.cc/3JT96sdt/Huevojamongrande.png",
   Descripcion: "Huevo revuelto con Jamon",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 30,
 };
 shotsarray[4] = objproducto;
 
 objproducto = {
   nombre: "Huevo",
-  imagen: "https://i.postimg.cc/gcDpZJK5/Huevo-Ranchero.jpg",
+  imagen: "https://i.postimg.cc/rm2tsk6n/Huevo-Rancherogrand.png",
   Descripcion: "Huevo Ranchero",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 30,
 };
 shotsarray[5] = objproducto;
 
 objproducto = {
   nombre: "Huevo",
-  imagen: "https://i.postimg.cc/dtVYmYHv/Huevo-Revuelto.png",
+  imagen: "https://i.postimg.cc/zBG0dKvr/Huevo-Revueltogrande.png",
   Descripcion: "Huevo Revuelto",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 15,
 };
 shotsarray[6] = objproducto;
 
 
 objproducto = {
   nombre: "Bastimentos",
-  imagen: "https://i.postimg.cc/MK389FNB/Tortilla-Edit.png",
-  Descripcion: "Tortillas",
+  imagen: "https://i.postimg.cc/dVds1Tqh/Tortilla-Editgrande.png",
+  Descripcion: "Tortillas Maiz",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 7,
 };
 shotsarray[7] = objproducto;
 
 
 objproducto = {
   nombre: "Bastimentos",
-  imagen: "https://i.postimg.cc/vH2d0Nk4/Patano-Maduro.png",
+  imagen: "https://i.postimg.cc/wxCTdVpr/Patano-Madurogrande.png",
   Descripcion: "Platano Maduro",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 12,
 };
 shotsarray[8] = objproducto;
 
 objproducto = {
   nombre: "Crema",
-  imagen: "https://i.postimg.cc/DywTdTjm/Natilla.png",
+  imagen: "https://i.postimg.cc/sxkFdwGP/Natillagrande.png",
   Descripcion: "Crema",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 23,
 };
 shotsarray[9] = objproducto;
 
@@ -122,42 +122,42 @@ shotsarray[9] = objproducto;
 
 objproducto = {
   nombre: "AlmuerzoBasico",
-  imagen: "https://i.postimg.cc/SsPWTq6B/Platillo-Basic.png",
+  imagen: "https://i.postimg.cc/jdk0cthD/Platillo-Basicgrand.png",
   Descripcion: "Platillo Basico",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 70,
 };
 shotsarray[10] = objproducto;
 
 
 objproducto = {
   nombre: "Carnes",
-  imagen: "https://i.postimg.cc/RFYcs97s/FiletRes.png",
+  imagen: "https://i.postimg.cc/fyLqSS1h/Filet-Resgrande.png",
   Descripcion: "Filet de res ",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 70,
 };
 shotsarray[11] = objproducto;
 
 objproducto = {
   nombre: "Carnes",
-  imagen: "https://i.postimg.cc/ZRQr7Z8M/Filet-Res-Jalape-o.png",
+  imagen: "https://i.postimg.cc/G3V6TqhR/Filet-Res-Jalape-ogrande.png",
   Descripcion: "Filet de res Jalapeño",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 70,
 };
 shotsarray[12] = objproducto;
 
 objproducto = {
   nombre: "Carnes",
-  imagen: "https://i.postimg.cc/RFYcs97s/FiletRes.png",
-  Descripcion: "Filet de res Jalapeño",
+  imagen: "https://i.postimg.cc/MZMFwV0t/Bistecresgrande.png",
+  Descripcion: "Bistec",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 70,
 };
 shotsarray[13] = objproducto;
 
@@ -165,33 +165,33 @@ shotsarray[13] = objproducto;
 
 objproducto = {
   nombre: "Pollo",
-  imagen: "https://i.postimg.cc/gJ7vSdyW/Pollo-Plancha.png",
+  imagen: "https://i.postimg.cc/G3Xm00QC/Pollo-Planchagrande.png",
   Descripcion: "Pollo a la plancha",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 70,
 };
 shotsarray[14] = objproducto;
 
 
 objproducto = {
   nombre: "Pollo",
-  imagen: "https://i.postimg.cc/MTLyPx73/Filet-Pollo-Empanizado.png",
+  imagen: "https://i.postimg.cc/cL0W6XTm/Filet-Pollo-Empanigrande.png",
   Descripcion: "Filet de Pollo Empanizado",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 70,
 };
 shotsarray[15] = objproducto;
 
 
 objproducto = {
   nombre: "Pollo",
-  imagen: "https://i.postimg.cc/zBQnt5wZ/Pollojalape-o.png",
+  imagen: "https://i.postimg.cc/tTSfRzJc/Pollojalape-ogrande.png",
   Descripcion: "Pollo Jalapeño",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 70,
 };
 shotsarray[16] = objproducto;
 
@@ -202,7 +202,7 @@ objproducto = {
   Descripcion: "Enchiladas",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 30,
 };
 shotsarray[17] = objproducto;
 
@@ -213,7 +213,7 @@ objproducto = {
   Descripcion: "Repochetas",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 30,
 };
 shotsarray[18] = objproducto;
 
@@ -225,7 +225,7 @@ objproducto = {
   Descripcion: "Taco de Res",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 40,
 };
 shotsarray[19] = objproducto;
 
@@ -239,7 +239,7 @@ objproducto = {
   Descripcion: "Helado Ron Con Pasas",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 10,
 };
 shotsarray[20] = objproducto;
 
@@ -250,7 +250,7 @@ objproducto = {
   Descripcion: "Helado Piña Con Leche",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 10,
 };
 shotsarray[21] = objproducto;
 
@@ -260,7 +260,7 @@ objproducto = {
   Descripcion: "Helado Cocoa",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 10,
 };
 shotsarray[22] = objproducto;
 
@@ -272,7 +272,7 @@ objproducto = {
   Descripcion: "Fresco Melon",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 20,
 };
 shotsarray[23] = objproducto;
 
@@ -282,7 +282,7 @@ objproducto = {
   Descripcion: "Fresco de Calala",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 20,
 };
 shotsarray[24] = objproducto;
 
@@ -292,7 +292,7 @@ objproducto = {
   Descripcion: "Fresco de Pitaya",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 20,
 };
 shotsarray[25] = objproducto;
 
@@ -350,7 +350,7 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
   if (contenedor) {
     for (let i = 0; i < arrimg.length; i++) {
       let newDiv = document.createElement("div");
-      let etiqueta=document.createElement("p");
+      let etiqueta=document.createElement("H5");
       let newImg = document.createElement("img");
 
       newDiv.setAttribute("class", "carousel-item");
@@ -362,7 +362,7 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
       newImg.setAttribute("ondblclick", "Fimgdb('"+arrimg[i].imagen+"');");
       newImg.setAttribute("alt", "Slide " + i);
      
-     etiqueta.setAttribute("class", "Titulomenu");
+     //etiqueta.setAttribute("class", "Titulo");
      
       etiqueta.textContent =
         arrimg[i].Descripcion +
