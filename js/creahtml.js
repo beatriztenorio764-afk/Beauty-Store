@@ -632,7 +632,7 @@ shotsarray[55] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://d.imgvision.net/st0gvp/Entyerizo_2025001.jpg",
+  imagen: "https://i.postimg.cc/L8Bk8KbC/Entyerizo-2025001.jpg",
   Descripcion: "Talla S-XL",
   Codigo: "Codentermu01",
   Cantidad: 1,
@@ -643,7 +643,7 @@ shotsarray[56] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://i.postimg.cc/L8Bk8KbC/Entyerizo-2025002.jpg",
+  imagen: "https://i.postimg.cc/13c03hjK/Entyerizo-2025002.jpg",
   Descripcion: "Talla XL-M",
   Codigo: "Codentermu02",
   Cantidad: 1,
@@ -654,7 +654,7 @@ shotsarray[57] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://i.postimg.cc/13c03hjK/Entyerizo-2025003.jpg",
+  imagen: "https://i.postimg.cc/wjc5j8GF/Entyerizo-2025003.jpg",
   Descripcion: "Talla L",
   Codigo: "Codentermu03",
   Cantidad: 1,
@@ -665,7 +665,7 @@ shotsarray[58] = objproducto;
 
 objproducto = {
   nombre: "Enterizos",
-  imagen: "https://i.postimg.cc/wjc5j8GF/Entyerizo-2025004.jpg",
+  imagen: "https://i.postimg.cc/CxHCxTQN/Entyerizo-2025004.jpg",
   Descripcion: "Talla L-M",
   Codigo: "Codentermu04",
   Cantidad: 1,
