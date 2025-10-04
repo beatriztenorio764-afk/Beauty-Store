@@ -32,7 +32,7 @@ let SubTotal=0;
 }
 
 function fenviamsg( ){
-  let numertel=+50581776694;
+  let numertel=+50578808247;
  window.location.href = "https://wa.me/"+numertel+"/?text='"+ fmsgpedido() +"'";
 
 }
