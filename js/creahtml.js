@@ -40,7 +40,7 @@ objproducto = {
   Descripcion: "Talla S",
   Codigo: "Codves03",
   Cantidad: 1,
-  Precio: 200,
+  Precio: 1080,
 };
 shotsarray[2] = objproducto;
 
@@ -50,7 +50,7 @@ objproducto = {
   Descripcion: "Talla L",
   Codigo: "Codves04",
   Cantidad: 1,
-  Precio: 250,
+  Precio: 820,
 };
 shotsarray[3] = objproducto;
 
@@ -250,6 +250,62 @@ objproducto = {
 };
 shotsarray[20] = objproducto;
 
+
+objproducto = {
+  nombre: "Vestidos",
+  imagen: "https://i.postimg.cc/zG00dNM7/Vestido-2025022.png",
+  Descripcion: "Talla 1XL",
+  Codigo: "Codves22",
+  Cantidad: 1,
+  Precio: 880,
+};
+shotsarray[21] = objproducto;
+
+
+objproducto = {
+  nombre: "Vestidos",
+  imagen: "https://i.postimg.cc/Z5VVfmg7/Vestido-2025023.png",
+  Descripcion: "Talla 1XL",
+  Codigo: "Codves23",
+  Cantidad: 1,
+  Precio: 980,
+};
+shotsarray[22] = objproducto;
+
+
+objproducto = {
+  nombre: "Vestidos",
+  imagen: "https://i.postimg.cc/XYQQ2WhD/Vestido-2025024.png",
+  Descripcion: "Talla 2XL",
+  Codigo: "Codves24",
+  Cantidad: 1,
+  Precio: 980,
+};
+shotsarray[23] = objproducto;
+
+
+objproducto = {
+  nombre: "Vestidos",
+  imagen: "https://i.postimg.cc/8zttyG30/Vestido-2025025.png",
+  Descripcion: "Talla M",
+  Codigo: "Codves25",
+  Cantidad: 1,
+  Precio: 980,
+};
+shotsarray[24] = objproducto;
+
+
+
+objproducto = {
+  nombre: "Vestidos",
+  imagen: "https://i.postimg.cc/02HLQpkh/Vestido-2025026.png",
+  Descripcion: "Talla M",
+  Codigo: "Codves25",
+  Cantidad: 1,
+  Precio: 720,
+};
+shotsarray[25] = objproducto;
+
 objproducto = {
   nombre: "Blusas",
   imagen: "https://i.postimg.cc/59gy30WZ/Blusa-2025001.jpg",
@@ -258,7 +314,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 520,
 };
-shotsarray[21] = objproducto;
+shotsarray[26] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
@@ -266,9 +322,9 @@ objproducto = {
   Descripcion: "Talla L-XL",
   Codigo: "Codblu02",
   Cantidad: 1,
-  Precio: 520,
+  Precio: 350,
 };
-shotsarray[22] = objproducto;
+shotsarray[27] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
@@ -278,7 +334,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 490,
 };
-shotsarray[23] = objproducto;
+shotsarray[28] = objproducto;
 
 
 objproducto = {
@@ -289,7 +345,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 500,
 };
-shotsarray[24] = objproducto;
+shotsarray[29] = objproducto;
 
 
 objproducto = {
@@ -300,7 +356,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 500,
 };
-shotsarray[25] = objproducto;
+shotsarray[30] = objproducto;
 
 
 
@@ -312,7 +368,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 350,
 };
-shotsarray[26] = objproducto;
+shotsarray[31] = objproducto;
 
 
 objproducto = {
@@ -323,7 +379,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 660,
 };
-shotsarray[27] = objproducto;
+shotsarray[32] = objproducto;
 
 
 objproducto = {
@@ -334,7 +390,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 450,
 };
-shotsarray[28] = objproducto;
+shotsarray[33] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
@@ -344,7 +400,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 560,
 };
-shotsarray[29] = objproducto;
+shotsarray[34] = objproducto;
 
 
 objproducto = {
@@ -355,7 +411,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 500,
 };
-shotsarray[30] = objproducto;
+shotsarray[35] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
@@ -365,7 +421,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 520,
 };
-shotsarray[31] = objproducto;
+shotsarray[36] = objproducto;
 
 
 objproducto = {
@@ -376,7 +432,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 500,
 };
-shotsarray[32] = objproducto;
+shotsarray[37] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
@@ -386,7 +442,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 500,
 };
-shotsarray[33] = objproducto;
+shotsarray[38] = objproducto;
 
 
 objproducto = {
@@ -397,7 +453,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 385,
 };
-shotsarray[34] = objproducto;
+shotsarray[39] = objproducto;
 
 
 objproducto = {
@@ -408,7 +464,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 430,
 };
-shotsarray[35] = objproducto;
+shotsarray[40] = objproducto;
 
 
 objproducto = {
@@ -417,9 +473,9 @@ objproducto = {
   Descripcion: "Talla M-S",
   Codigo: "Codblu16",
   Cantidad: 1,
-  Precio: 480,
+  Precio: 580,
 };
-shotsarray[36] = objproducto;
+shotsarray[41] = objproducto;
 
 
 objproducto = {
@@ -430,7 +486,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 380,
 };
-shotsarray[37] = objproducto;
+shotsarray[42] = objproducto;
 
 
 objproducto = {
@@ -441,7 +497,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 400,
 };
-shotsarray[38] = objproducto;
+shotsarray[43] = objproducto;
 
 
 objproducto = {
@@ -452,7 +508,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 440,
 };
-shotsarray[39] = objproducto;
+shotsarray[44] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
@@ -460,9 +516,9 @@ objproducto = {
   Descripcion: "Talla M",
   Codigo: "Codblu20",
   Cantidad: 1,
-  Precio: 440,
+  Precio: 500,
 };
-shotsarray[40] = objproducto;
+shotsarray[45] = objproducto;
 
 
 objproducto = {
@@ -473,7 +529,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 450,
 };
-shotsarray[41] = objproducto;
+shotsarray[46] = objproducto;
 
 
 objproducto = {
@@ -484,7 +540,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 530,
 };
-shotsarray[42] = objproducto;
+shotsarray[47] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
@@ -494,7 +550,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 500,
 };
-shotsarray[43] = objproducto;
+shotsarray[48] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
@@ -504,7 +560,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 420,
 };
-shotsarray[44] = objproducto;
+shotsarray[49] = objproducto;
 
 
 objproducto = {
@@ -515,7 +571,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 650,
 };
-shotsarray[45] = objproducto;
+shotsarray[50] = objproducto;
 
 objproducto = {
   nombre: "Blusas",
@@ -525,7 +581,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 640,
 };
-shotsarray[46] = objproducto;
+shotsarray[51] = objproducto;
 
 
 
@@ -537,7 +593,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 790,
 };
-shotsarray[47] = objproducto;
+shotsarray[52] = objproducto;
 
 
 objproducto = {
@@ -548,7 +604,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 720,
 };
-shotsarray[48] = objproducto;
+shotsarray[53] = objproducto;
 
 
 objproducto = {
@@ -559,7 +615,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 790,
 };
-shotsarray[49] = objproducto;
+shotsarray[54] = objproducto;
 
 
 objproducto = {
@@ -570,7 +626,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 790,
 };
-shotsarray[50] = objproducto;
+shotsarray[55] = objproducto;
 
 
 
@@ -582,7 +638,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 790,
 };
-shotsarray[51] = objproducto;
+shotsarray[56] = objproducto;
 
 
 objproducto = {
@@ -593,7 +649,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 790,
 };
-shotsarray[52] = objproducto;
+shotsarray[57] = objproducto;
 
 
 
@@ -605,7 +661,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 790,
 };
-shotsarray[53] = objproducto;
+shotsarray[58] = objproducto;
 
 
 objproducto = {
@@ -616,7 +672,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 790,
 };
-shotsarray[54] = objproducto;
+shotsarray[59] = objproducto;
 
 
 objproducto = {
@@ -627,7 +683,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 790,
 };
-shotsarray[55] = objproducto;
+shotsarray[60] = objproducto;
 
 
 objproducto = {
@@ -636,9 +692,9 @@ objproducto = {
   Descripcion: "Talla S-XL",
   Codigo: "Codentermu01",
   Cantidad: 1,
-  Precio: 790,
+  Precio: 780,
 };
-shotsarray[56] = objproducto;
+shotsarray[61] = objproducto;
 
 
 objproducto = {
@@ -649,7 +705,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 760,
 };
-shotsarray[57] = objproducto;
+shotsarray[62] = objproducto;
 
 
 objproducto = {
@@ -660,7 +716,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 900,
 };
-shotsarray[58] = objproducto;
+shotsarray[63] = objproducto;
 
 
 objproducto = {
@@ -671,7 +727,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 900,
 };
-shotsarray[59] = objproducto;
+shotsarray[64] = objproducto;
 
 
 objproducto = {
@@ -682,7 +738,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 720,
 };
-shotsarray[60] = objproducto;
+shotsarray[65] = objproducto;
 
 
 objproducto = {
@@ -693,7 +749,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 720,
 };
-shotsarray[61] = objproducto;
+shotsarray[66] = objproducto;
 
 
 objproducto = {
@@ -704,7 +760,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 820,
 };
-shotsarray[62] = objproducto;
+shotsarray[67] = objproducto;
 
 
 
@@ -716,7 +772,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 650,
 };
-shotsarray[63] = objproducto;
+shotsarray[68] = objproducto;
 
 
 
@@ -728,7 +784,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 650,
 };
-shotsarray[64] = objproducto;
+shotsarray[69] = objproducto;
 
 
 objproducto = {
@@ -739,7 +795,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 750,
 };
-shotsarray[65] = objproducto;
+shotsarray[70] = objproducto;
 
 
 objproducto = {
@@ -750,7 +806,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 620,
 };
-shotsarray[66] = objproducto;
+shotsarray[71] = objproducto;
 
 
 objproducto = {
@@ -761,7 +817,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 590,
 };
-shotsarray[67] = objproducto;
+shotsarray[72] = objproducto;
 
 
 objproducto = {
@@ -772,7 +828,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 850,
 };
-shotsarray[68] = objproducto;
+shotsarray[73] = objproducto;
 
 
 objproducto = {
@@ -783,7 +839,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 360,
 };
-shotsarray[69] = objproducto;
+shotsarray[74] = objproducto;
 
 
 objproducto = {
@@ -794,7 +850,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 820,
 };
-shotsarray[70] = objproducto;
+shotsarray[75] = objproducto;
 
 objproducto = {
   nombre: "Conjuntos",
@@ -804,7 +860,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 1020,
 };
-shotsarray[71] = objproducto;
+shotsarray[76] = objproducto;
 
 objproducto = {
   nombre: "Conjuntos",
@@ -814,7 +870,18 @@ objproducto = {
   Cantidad: 1,
   Precio: 750,
 };
-shotsarray[72] = objproducto;
+shotsarray[77] = objproducto;
+
+objproducto = {
+  nombre: "Conjuntos",
+  imagen: "https://i.postimg.cc/V6KcW2w7/Conjun-2025007.png",
+  Descripcion: "Talla S",
+  Codigo: "Codconjmu06",
+  Cantidad: 1,
+  Precio: 500,
+};
+shotsarray[78] = objproducto;
+
 
 
 objproducto = {
@@ -825,7 +892,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 590,
 };
-shotsarray[73] = objproducto;
+shotsarray[79] = objproducto;
 
 
 objproducto = {
@@ -836,7 +903,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 560,
 };
-shotsarray[74] = objproducto;
+shotsarray[80] = objproducto;
 
 
 objproducto = {
@@ -847,7 +914,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 540,
 };
-shotsarray[75] = objproducto;
+shotsarray[81] = objproducto;
 
 objproducto = {
   nombre: "BodySuit",
@@ -857,7 +924,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 385,
 };
-shotsarray[76] = objproducto;
+shotsarray[82] = objproducto;
 
 objproducto = {
   nombre: "BodySuit",
@@ -867,7 +934,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 490,
 };
-shotsarray[77] = objproducto;
+shotsarray[83] = objproducto;
 
 objproducto = {
   nombre: "BodySuit",
@@ -875,9 +942,21 @@ objproducto = {
   Descripcion: "Talla L-S",
   Codigo: "Codbody03",
   Cantidad: 1,
-  Precio: 490,
+  Precio: 580,
 };
-shotsarray[78] = objproducto;
+shotsarray[84] = objproducto;
+
+
+
+objproducto = {
+  nombre: "BodySuit",
+  imagen: "https://i.postimg.cc/QdcCJNyg/Body-Suit-2025004.png",
+  Descripcion: "Talla L",
+  Codigo: "Codbody03",
+  Cantidad: 1,
+  Precio: 560,
+};
+shotsarray[85] = objproducto;
 
 objproducto = {
   nombre: "CropTop",
@@ -887,7 +966,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 580,
 };
-shotsarray[79] = objproducto;
+shotsarray[86] = objproducto;
 
 
 objproducto = {
@@ -898,7 +977,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 370,
 };
-shotsarray[80] = objproducto;
+shotsarray[87] = objproducto;
 
 objproducto = {
   nombre: "CropTop",
@@ -908,7 +987,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 350,
 };
-shotsarray[81] = objproducto;
+shotsarray[88] = objproducto;
 
 objproducto = {
   nombre: "CropTop",
@@ -918,73 +997,110 @@ objproducto = {
   Cantidad: 1,
   Precio: 480,
 };
-shotsarray[82] = objproducto;
+shotsarray[89] = objproducto;
+
+
+
+objproducto = {
+  nombre: "CropTop",
+  imagen: "https://i.postimg.cc/XYtKpvy8/Croptop-2025005.png",
+  Descripcion: "Talla M",
+  Codigo: "Codcropt05",
+  Cantidad: 1,
+  Precio: 620,
+};
+shotsarray[90] = objproducto;
 
 
 objproducto = {
   nombre: "Zapatos",
   imagen: "https://i.postimg.cc/LsvzDLdN/Zapato-2025001.jpg",
-  Descripcion: "Talla ",
+  Descripcion: "Talla 7",
   Codigo: "CodZapato01",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 500,
 };
-shotsarray[83] = objproducto;
+shotsarray[91] = objproducto;
+
+
+
 
 
 objproducto = {
   nombre: "Zapatos",
   imagen: "https://i.postimg.cc/9f1GbZ3Z/Zapato-2025002.jpg",
-  Descripcion: "Talla ",
+  Descripcion: "Talla 9 ",
   Codigo: "CodZapato02",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 500,
 };
-shotsarray[84] = objproducto;
+shotsarray[92] = objproducto;
 
 objproducto = {
   nombre: "Zapatos",
   imagen: "https://i.postimg.cc/VN4jgnyX/Zapato-2025003.jpg",
-  Descripcion: "Talla ",
+  Descripcion: "Talla 6",
   Codigo: "CodZapato03",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 450,
 };
-shotsarray[85] = objproducto;
+shotsarray[93] = objproducto;
 
 
 objproducto = {
   nombre: "Zapatos",
   imagen: "https://i.postimg.cc/1zMpBwxV/Zapato-2025004.jpg",
-  Descripcion: "Talla ",
+  Descripcion: "Talla 8",
   Codigo: "CodZapato04",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 500,
 };
-shotsarray[86] = objproducto;
+shotsarray[94] = objproducto;
 
 
 objproducto = {
   nombre: "Zapatos",
   imagen: "https://i.postimg.cc/PxR1sH5f/Zapato-2025005.jpg",
-  Descripcion: "Talla ",
+  Descripcion: "Talla 7",
   Codigo: "CodZapato05",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 450,
 };
-shotsarray[87] = objproducto;
+shotsarray[95] = objproducto;
 
 
 
 objproducto = {
   nombre: "Zapatos",
   imagen: "https://i.postimg.cc/4yHVX0YF/Zapato-2025006.jpg",
-  Descripcion: "Talla ",
+  Descripcion: "Talla 39",
   Codigo: "CodZapato06",
   Cantidad: 1,
-  Precio: 0,
+  Precio: 430,
 };
-shotsarray[88] = objproducto;
+shotsarray[96] = objproducto;
+
+
+objproducto = {
+  nombre: "Zapatos",
+  imagen: "https://i.postimg.cc/Wz0wvc44/Zapato-2025007.png",
+  Descripcion: "Talla 39",
+  Codigo: "CodZapato07",
+  Cantidad: 1,
+  Precio: 430,
+};
+shotsarray[97] = objproducto;
+
+
+objproducto = {
+  nombre: "Zapatos",
+  imagen: "https://i.postimg.cc/Pq8gwNVT/Zapato-2025008.png",
+  Descripcion: "Talla 8/9/8",
+  Codigo: "CodZapato08",
+  Cantidad: 1,
+  Precio: 600,
+};
+shotsarray[98] = objproducto;
 
 
 objproducto = {
@@ -995,7 +1111,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 310,
 };
-shotsarray[89] = objproducto;
+shotsarray[99] = objproducto;
 
 
 objproducto = {
@@ -1006,7 +1122,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 560,
 };
-shotsarray[90] = objproducto;
+shotsarray[100] = objproducto;
 
 objproducto = {
   nombre: "Shorts",
@@ -1016,7 +1132,7 @@ objproducto = {
   Cantidad: 1,
   Precio: 570,
 };
-shotsarray[91] = objproducto;
+shotsarray[101] = objproducto;
 
 
 
