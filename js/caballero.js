@@ -118,7 +118,7 @@ function creacarritocomex() {
   newcarritocomex.setAttribute("onclick", "valorbtcompver( );");
 
   newetique.setAttribute("class", "fas fa-shopping-cart");
-  newetique.textContent = "Ver Compra";
+  newetique.textContent = "Ver Pedido";
 
   carritocomex.appendChild(newcarritocomex);
   newcarritocomex.appendChild(newetique);
@@ -131,12 +131,14 @@ window.open(img, '_blank');
 
 }
 
+
 function creaimgcar(contenedor, arrimg, idbtcompra) {
   //carga las imagenes y botones de compra
   if (contenedor) {
     for (let i = 0; i < arrimg.length; i++) {
       let newDiv = document.createElement("div");
       let newImg = document.createElement("img");
+       let etiqueta=document.createElement("H6");
 
       newDiv.setAttribute("class", "carousel-item");
 
@@ -145,11 +147,8 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
       newImg.setAttribute("alt", "Slide " + i);
       newImg.setAttribute("ondblclick", "Fimgdb('"+arrimg[i].imagen+"');");
 
-      newDiv.textContent =
-        "Codigo: " +
-        arrimg[i].Codigo +
-        "," +
-        " Articulo: " +
+
+      etiqueta.textContent =
         arrimg[i].Descripcion +
         ", Precio: C$" +
         arrimg[i].Precio;
@@ -158,9 +157,9 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
       }
 
       contenedor.appendChild(newDiv);
-
+       
       Btcarritoc(idbtcompra, i, newDiv); //Funcion boton compras
-
+     newDiv.appendChild(etiqueta);
       newDiv.appendChild(newImg);
     }
   }
@@ -280,7 +279,7 @@ function crealistimg(contenedor, arrimg, classtarget, principalcontenedor) {
       contenedor.appendChild(newli);
     }
 
-    //Btprevio(contenedor, classtarget, principalcontenedor);
+    Btprevio(contenedor, classtarget, principalcontenedor);
     Btnext(contenedor, classtarget, principalcontenedor);
   }
 }
@@ -539,18 +538,18 @@ for (let k = 0; k < arraycantprod.length; k++) {
 
      if(arraycantprod[k].Totalarrayimg===1){//Si el arreglo es solo uno o solo un visor
       posinicio=arraycantprod[k].Desde;
-      posfin=arraycantprod[k].Hasta;
+      posfin=parseInt(arraycantprod[k].Hasta)+1;
 
      }else{
              if(arraycantprod[k].Totalarrayimg===1){
                   posinicio=arraycantprod[k].Desde;
-                  posfin=arraycantprod[k].Hasta
+                  posfin=parseInt(arraycantprod[k].Hasta)+1;
                   
              }else{
 
                   if(arraycantprod[k].Totalarrayimg===(i+1)){//Si llega al final del arreglo
                     posinicio=posfin;
-                    posfin=parseInt(arraycantprod[k].Hasta);
+                    posfin=parseInt(arraycantprod[k].Hasta)+1;
                     
 
 

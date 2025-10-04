@@ -16,9 +16,7 @@
 .bodycarri {
   font-size:  80%; 
   margin: 0px;
-    
-    
-
+  width: 100vw;
 
   }
 
@@ -360,7 +358,7 @@ input[type="number"] {
 
 .tabprincipal {
   /*background-image: url(../images/bg.jpg);*/
-  width: 90%;
+   width: 100vw;
   max-width: 800px;
 
 
@@ -373,13 +371,13 @@ input[type="number"] {
 
 
 .colorcelda {
-
+width: 100%;
+  height: 150px;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  padding: 15%;
-  margin: 15%;
+
   transition: 0.5s;
-  background-image: url(../images/Pordata/modahombrer01.png);
+  
   /* Opcional: ajustar tamaÃ±o, repeticiÃ³n, etc. */
   background-size: 100%;
   background-repeat: no-repeat;
@@ -421,6 +419,21 @@ input[type="number"] {
 
 
 .Titulo {
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px #aaa;
+  color: #0a0a0a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+
+}
+
+
+.Titulomenu {
   text-align: center;
   font-size: 100%;
   font-weight: bold;
@@ -537,6 +550,7 @@ display: flex;
 
 
 .imagelogob {
+ 
   width: 100%;
   height: 250px;
   align-items: right;
@@ -564,4 +578,47 @@ display: flex;
   width: 50px;
   height: 40px;
 
+}
+
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+
+.imagenpro{
+	width: 300px;
+  height: 300px;
+  object-fit: cover;
+	
+	
+}
+
+.container-items{
+      display: flex;
+	width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+	align-content: flex-start;
+  
 }
