@@ -1136,6 +1136,52 @@ shotsarray[101] = objproducto;
 
 
 
+objproducto = {
+  nombre: "Fajas",
+  imagen: "https://i.postimg.cc/7hgtNQpP/Fajas-2025001.png",
+  Descripcion: "Talla ",
+  Codigo: "CodShort01",
+  Cantidad: 1,
+  Precio: 250,
+};
+shotsarray[102] = objproducto;
+
+
+
+objproducto = {
+  nombre: "Fajas",
+  imagen: "https://i.postimg.cc/fyxqvg6w/Fajas-2025002.png",
+  Descripcion: "Talla S-M",
+  Codigo: "CodShort01",
+  Cantidad: 1,
+  Precio: 250,
+};
+shotsarray[103] = objproducto;
+
+
+objproducto = {
+  nombre: "Fajas",
+  imagen: "https://i.postimg.cc/yxFpTrw8/Fajas-2025003.png",
+  Descripcion: "Talla S-M",
+  Codigo: "CodShort01",
+  Cantidad: 1,
+  Precio: 100,
+};
+shotsarray[104] = objproducto;
+
+
+objproducto = {
+  nombre: "Fajas",
+  imagen: "https://i.postimg.cc/RhcpTbj4/Fajas-2025004.png",
+  Descripcion: "Talla S-M",
+  Codigo: "CodShort01",
+  Cantidad: 1,
+  Precio: 100,
+};
+shotsarray[105] = objproducto;
+
+
+
 
 listproarray[0] = "Vestidos"; //Arreglo imagenes
 listproarray[1] = "Blusas";
@@ -1149,6 +1195,7 @@ listproarray[8] = "Zapatos";
 listproarray[9] = "Licras";
 listproarray[10] = "Palazos";
 listproarray[11] = "Shorts";
+listproarray[12] = "Fajas";
 
 arrfiltraproduct=cantidadarray();
 

@@ -16,84 +16,74 @@ const cantiingxarray=5;
 
 objproducto = {
   nombre: "Anillos",
-  imagen: "https://i.postimg.cc/yY3F4bkr/Joy2025-001.jpg",
-  Descripcion: "Aillo Princesa dianmantes",
+  imagen: "https://i.postimg.cc/vZzLb6R4/Anillo-2025001.png",
+  Descripcion: "Tamaño 9",
   Codigo: "CodPa01",
   Cantidad: 3,
-  Precio: 100,
+  Precio: 570,
 };
 shotsarray[0] = objproducto; //Arreglo imagenes
 
 objproducto = {
   nombre: "Anillos",
-  imagen: "https://i.postimg.cc/qv8yg6cs/Joy2025-002.jpg",
-  Descripcion: "Anillos Oro 18k ",
+  imagen: "https://i.postimg.cc/QdbkhWLM/Anillo-2025002.png",
+  Descripcion: "Tamaño Ajutable ",
   Codigo: "CodPa02",
   Cantidad: 4,
-  Precio: 150,
+  Precio: 220,
 };
 shotsarray[1] = objproducto;
 
 objproducto = {
   nombre: "Anillos",
-  imagen: "https://i.postimg.cc/nh8qHGmV/Joy2025-003.jpg",
-  Descripcion: "Anillo impremiable",
+  imagen: "https://i.postimg.cc/Hk24d7Gk/Anillo-2025003.png",
+  Descripcion: "Talla 8",
   Codigo: "CodPa03",
   Cantidad: 1,
-  Precio: 200,
+  Precio: 720,
 };
 shotsarray[2] = objproducto;
 
 objproducto = {
   nombre: "Anillos",
-  imagen: "https://i.postimg.cc/bvpbnYLK/Joy2025-004.jpg",
-  Descripcion: "Pantalon estilo Bagui",
+  imagen: "https://i.postimg.cc/8zHBNr8P/Anillo-2025004.png",
+  Descripcion: "Tamaño",
   Codigo: "CodPa04",
   Cantidad: 6,
-  Precio: 250,
+  Precio: 570,
 };
 shotsarray[3] = objproducto;
 
+
 objproducto = {
-  nombre: "Anillos",
-  imagen: "https://i.postimg.cc/xd5m3r4q/Joy2025-005.jpg",
-  Descripcion: "Pantalones Mesclilla Levis",
-  Codigo: "CodPa05",
-  Cantidad: 2,
-  Precio: 600,
+  nombre: "Aretes",
+  imagen: "https://i.postimg.cc/NF5Prkcx/Arete-2025001.png",
+  Descripcion: "Tamaño 45 CM y dije",
+  Codigo: "CodPa04",
+  Cantidad: 6,
+  Precio: 620,
 };
 shotsarray[4] = objproducto;
-objproducto = {
-  nombre: "Anillos",
-  imagen: "https://i.postimg.cc/85C6yy24/Joy2025-006.jpg",
-  Descripcion: "Anillo Mesclilla tubo Amarillo",
-  Codigo: "Codpa06",
-  Cantidad: 2,
-  Precio: 400,
-};
 
+
+
+objproducto = {
+  nombre: "Cadenas",
+  imagen: "https://i.postimg.cc/pVFSxksX/Cadena-2025001.png",
+  Descripcion: "Plata 925",
+  Codigo: "CodPa04",
+  Cantidad: 6,
+  Precio: 850,
+};
 shotsarray[5] = objproducto;
-objproducto = {
-  nombre: "Anillos",
-  imagen: "https://i.postimg.cc/MTrjg7xS/Joy2025-007.jpg",
-  Descripcion: "Vestidos Negro",
-  Codigo: "CodPa07",
-  Cantidad: 2,
-  Precio: 700,
-};
-shotsarray[6] = objproducto;
-
-
-
-
 
 
 
 
 
 listproarray[0] = "Anillos"; //Arreglo imagenes
-listproarray[1] = "Blusas";
-listproarray[2] = "Zapatos";
+listproarray[1] = "Aretes";
+listproarray[2] = "Cadenas";
 listproarray[3] = "Enterizos";
 listproarray[4] = "Calzones";
 
@@ -118,12 +108,11 @@ function creacarritocomex() {
   newcarritocomex.setAttribute("onclick", "valorbtcompver( );");
 
   newetique.setAttribute("class", "fas fa-shopping-cart");
-  newetique.textContent = "Ver Compra";
+  newetique.textContent = "Ver Pedido";
 
   carritocomex.appendChild(newcarritocomex);
   newcarritocomex.appendChild(newetique);
 }
-
 
 function Fimgdb(img ){
 
@@ -132,25 +121,24 @@ window.open(img, '_blank');
 
 }
 
+
 function creaimgcar(contenedor, arrimg, idbtcompra) {
   //carga las imagenes y botones de compra
   if (contenedor) {
     for (let i = 0; i < arrimg.length; i++) {
       let newDiv = document.createElement("div");
       let newImg = document.createElement("img");
+       let etiqueta=document.createElement("H6");
 
       newDiv.setAttribute("class", "carousel-item");
 
       newImg.setAttribute("src", arrimg[i].imagen);
       newImg.setAttribute("class", "w-100 d-block");
       newImg.setAttribute("alt", "Slide " + i);
-       newImg.setAttribute("ondblclick", "Fimgdb('"+arrimg[i].imagen+"');");
+      newImg.setAttribute("ondblclick", "Fimgdb('"+arrimg[i].imagen+"');");
 
-      newDiv.textContent =
-        "Codigo: " +
-        arrimg[i].Codigo +
-        "," +
-        " Articulo: " +
+
+      etiqueta.textContent =
         arrimg[i].Descripcion +
         ", Precio: C$" +
         arrimg[i].Precio;
@@ -159,9 +147,9 @@ function creaimgcar(contenedor, arrimg, idbtcompra) {
       }
 
       contenedor.appendChild(newDiv);
-
+       
       Btcarritoc(idbtcompra, i, newDiv); //Funcion boton compras
-
+     newDiv.appendChild(etiqueta);
       newDiv.appendChild(newImg);
     }
   }
@@ -281,7 +269,7 @@ function crealistimg(contenedor, arrimg, classtarget, principalcontenedor) {
       contenedor.appendChild(newli);
     }
 
-    //Btprevio(contenedor, classtarget, principalcontenedor);
+    Btprevio(contenedor, classtarget, principalcontenedor);
     Btnext(contenedor, classtarget, principalcontenedor);
   }
 }
@@ -333,7 +321,7 @@ function valorbt(btvalor, idvisorbt) {
                                                                                                                                                                                                                                                                                                 
 
       
-     objetoagregaprodu = {
+    objetoagregaprodu = {
       nombre: shotsarray[btvalor].nombre,
       Descripcion: shotsarray[btvalor].Descripcion,
       Codigo: shotsarray[btvalor].Codigo,
@@ -540,18 +528,18 @@ for (let k = 0; k < arraycantprod.length; k++) {
 
      if(arraycantprod[k].Totalarrayimg===1){//Si el arreglo es solo uno o solo un visor
       posinicio=arraycantprod[k].Desde;
-      posfin=arraycantprod[k].Hasta;
+      posfin=parseInt(arraycantprod[k].Hasta)+1;
 
      }else{
              if(arraycantprod[k].Totalarrayimg===1){
                   posinicio=arraycantprod[k].Desde;
-                  posfin=arraycantprod[k].Hasta
+                  posfin=parseInt(arraycantprod[k].Hasta)+1;
                   
              }else{
 
                   if(arraycantprod[k].Totalarrayimg===(i+1)){//Si llega al final del arreglo
                     posinicio=posfin;
-                    posfin=parseInt(arraycantprod[k].Hasta);
+                    posfin=parseInt(arraycantprod[k].Hasta)+1;
                     
 
 
