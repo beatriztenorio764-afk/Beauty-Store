@@ -103,7 +103,7 @@ function borrarcompra(posibt){
       shotsarray.splice(posibt,1);
       datosJSON = JSON.stringify(shotsarray);
       datosCodificados = encodeURIComponent(datosJSON);
-      window.location.href =`CarritoComprasTiendaTecno.html?datos=${datosCodificados}`;
+      window.location.href =`CarritoComprasbambu.html?datos=${datosCodificados}`;
      
      
 }
