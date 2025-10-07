@@ -11,6 +11,7 @@ let datosJSON;
 let datosCodificados;
 let arrfiltraproduct;
 const cantiingxarray=5;
+let link = document.getElementById('Idimgdescarga');
 
 
 
@@ -1198,6 +1199,15 @@ listproarray[11] = "Shorts";
 listproarray[12] = "Fajas";
 
 arrfiltraproduct=cantidadarray();
+
+
+
+
+ link.ondblclick = function (event) {
+              event.preventDefault(); // Evita la acción por defecto del enlace (navegar a '#')
+              window.location.href = 'https://beatriztenorio764-afk.github.io/Beauty-Store/descarga/QrTiendagrande.png'; // Redirige al enlace deseado
+              console.log('Se hizo doble clic en el enlace');
+            };
 
 function valorbtcompver() {
   //Funcion que trasnfiere las compras
