@@ -5779,7 +5779,7 @@ textarea.form-control-lg {
 
 .carousel-item-prev:not(.carousel-item-end),
 .active.carousel-item-start {
-  transform: translateX(-100%);
+  transform: translateX(-80%);
 }
 
 /* rtl:end:ignore */
@@ -5841,7 +5841,7 @@ textarea.form-control-lg {
 }
 
 .carousel-control-prev {
-  left: 0;
+  left: 2;
 }
 
 .carousel-control-next {
